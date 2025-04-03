@@ -1,1 +1,102 @@
-.
+local Kaangui = Instance.new("ScreenGui")
+local NMain = Instance.new("Frame")
+local Color = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+
+Kaangui.Name = "Kaangui"
+Kaangui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Kaangui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+NMain.Name = "NMain"
+NMain.Parent = Kaangui
+NMain.BackgroundColor3 = Color3.new(0, 0, 0)
+NMain.BackgroundTransparency = 0.30000001192092896
+NMain.BorderColor3 = Color3.new(0, 0, 0)
+NMain.BorderSizePixel = 0
+NMain.Position = UDim2.new(0.325878292, 0, 0.326842844, 0)
+NMain.Size = UDim2.new(0, 647, 0, 380)
+NMain.Visible = false
+
+Color.Name = "Color"
+Color.Parent = NMain
+Color.BackgroundColor3 = Color3.new(0, 0.666667, 1)
+Color.BorderColor3 = Color3.new(0, 0, 0)
+Color.BorderSizePixel = 0
+Color.Position = UDim2.new(0, 0, 0.165016487, 0)
+Color.Size = UDim2.new(0, 644, 0, 2)
+
+TextLabel.Parent = NMain
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(9.47750891e-08, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 643, 0, 58)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Made by vox (EfdoRB) Version. 1"
+TextLabel.TextColor3 = Color3.new(0.694118, 0.694118, 0.694118)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14
+TextLabel.TextWrapped = true
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+Close.Name = "Close"
+Close.Parent = Kaangui
+Close.BackgroundColor3 = Color3.new(0.231373, 0.231373, 0.231373)
+Close.BorderColor3 = Color3.new(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.00612244895, 0, 0.591098726, 0)
+Close.Size = UDim2.new(0, 57, 0, 27)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "Open"
+Close.TextColor3 = Color3.new(1, 1, 1)
+Close.TextScaled = true
+Close.TextSize = 14
+Close.TextWrapped = true
+
+UICorner.Parent = Close
+
+Close.MouseButton1Click:Connect(function()
+    if NMain.Visible then
+        NMain.Visible = false
+        Close.Text = "Open"
+    else
+        NMain.Visible = true
+        Close.Text = "Close"
+    end
+end)
+
+local function getRandomColor()
+    return Color3.new(math.random(), math.random(), math.random())
+end
+
+while true do
+    Color.BackgroundColor3 = getRandomColor()
+    wait(1)
+end)
+
+local dragging = false
+local dragInput, dragStart, startPos
+
+NMain.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        dragging = true
+        dragStart = input.Position
+        startPos = NMain.Position
+    end
+end)
+
+NMain.InputChanged:Connect(function(input)
+    if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+        local delta = input.Position - dragStart
+        NMain.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+    end
+end)
+
+NMain.InputEnded:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        dragging = false
+    end
+end)
