@@ -1,8 +1,5 @@
 --[[
-
-		Gui2Lua (Made By Vox)
-		EfdoRB
-		Version 1.0.0
+ez
 
 ]]
 
@@ -44,8 +41,6 @@ local AntiJacket = Instance.new("TextButton")
 local Frame_14 = Instance.new("Frame")
 local AnvilFling = Instance.new("TextButton")
 local Frame_15 = Instance.new("Frame")
-local KClose = Instance.new("TextButton")
-local UICorner = Instance.new("UICorner")
 
 -- Properties
 
@@ -61,7 +56,6 @@ NMain.BorderColor3 = Color3.new(0, 0, 0)
 NMain.BorderSizePixel = 0
 NMain.Position = UDim2.new(0.0268987343, 0, 0.288595259, 0)
 NMain.Size = UDim2.new(0, 647, 0, 380)
-NMain.Visible = false
 
 TextLabel.Parent = NMain
 TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -416,179 +410,103 @@ Frame_15.BorderSizePixel = 0
 Frame_15.Position = UDim2.new(0, 0, 1, 0)
 Frame_15.Size = UDim2.new(0, 129, 0, 3)
 
-KClose.Name = "KClose"
-KClose.Parent = Kaangui
-KClose.BackgroundColor3 = Color3.new(0.494118, 0.494118, 0.494118)
-KClose.BorderColor3 = Color3.new(0, 0, 0)
-KClose.BorderSizePixel = 0
-KClose.Position = UDim2.new(0.00612244895, 0, 0.638038933, 0)
-KClose.Size = UDim2.new(0, 101, 0, 30)
-KClose.Font = Enum.Font.SourceSans
-KClose.Text = "Open"
-KClose.TextColor3 = Color3.new(0, 0, 0)
-KClose.TextScaled = true
-KClose.TextSize = 14
-KClose.TextWrapped = true
-
-UICorner.Parent = KClose
-
 -- Scripts
 
-local function tor(button)
-	local frame = button:FindFirstChild("Frame")
-	if frame then
-		if frame.BackgroundColor3 == Color3.fromRGB(255, 0, 0) then
-			frame.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
-		else
-			frame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-		end
-	end
-end
+local function EOUOAD_fake_script() -- Antifling.Script 
+	local script = Instance.new('Script', Antifling)
 
-local function QPLP_fake_script()
-	local button = script.Parent:FindFirstChild("Antifling")
-	if button then
-		tor(button)
-	end
-end
-coroutine.wrap(QPLP_fake_script)()
-
-local function KFTVYO_fake_script()
-	local button = script.Parent:FindFirstChild("AntiSpinner")
-	if button then
-		tor(button)
-	end
-end
-coroutine.wrap(KFTVYO_fake_script)()
-
-local function HSYELM_fake_script()
-	local button = script.Parent:FindFirstChild("Fakeaccs")
-	if button then
-		tor(button)
-	end
-end
-coroutine.wrap(HSYELM_fake_script)()
-
-local function GUMN_fake_script()
-	local button = script.Parent:FindFirstChild("AntiVelocity")
-	if button then
-		tor(button)
-	end
-end
-coroutine.wrap(GUMN_fake_script)()
-
-local function IPRFJ_fake_script()
-	local button = script.Parent:FindFirstChild("AntiArmV4")
-	if button then
-		tor(button)
-	end
-end
-coroutine.wrap(IPRFJ_fake_script)()
-
-local function XHXJ_fake_script()
-	local button = script.Parent:FindFirstChild("ClearFling")
-	if button then
-		tor(button)
-	end
-end
-coroutine.wrap(XHXJ_fake_script)()
-
-local function PPCHI_fake_script()
-	local button = script.Parent:FindFirstChild("AntiVoid")
-	if button then
-		tor(button)
-	end
-end
-coroutine.wrap(PPCHI_fake_script)()
-
-local function NRXFHEZ_fake_script()
-	local button = script.Parent:FindFirstChild("AutoRespawn")
-	if button then
-		tor(button)
-	end
-end
-coroutine.wrap(NRXFHEZ_fake_script)()
-
-local function LECT_fake_script()
-	local button = script.Parent:FindFirstChild("AntiStablers")
-	if button then
-		tor(button)
-	end
-end
-coroutine.wrap(LECT_fake_script)()
-
-local function YLINO_fake_script()
-	local button = script.Parent:FindFirstChild("ArmDeleteFling")
-	if button then
-		tor(button)
-	end
-end
-coroutine.wrap(YLINO_fake_script)()
-
-local function NYQDZ_fake_script()
-	local button = script.Parent:FindFirstChild("AntiSpinnerV2")
-	if button then
-		tor(button)
-	end
-end
-coroutine.wrap(NYQDZ_fake_script)()
-
-local function WVOR_fake_script()
-	local button = script.Parent:FindFirstChild("AntiVirus")
-	if button then
-		tor(button)
-	end
-end
-coroutine.wrap(WVOR_fake_script)()
-
-local function HFLHTJ_fake_script()
-	local button = script.Parent:FindFirstChild("AntiJacket")
-	if button then
-		tor(button)
-	end
-end
-coroutine.wrap(HFLHTJ_fake_script)()
-
-local function WSKQPM_fake_script()
-	local button = script.Parent:FindFirstChild("AnvilFling")
-	if button then
-		tor(button)
-	end
-end
-coroutine.wrap(WSKQPM_fake_script)()
-
-
-coroutine.wrap(WSKQPM_fake_script)()
-local function ROTQO_fake_script() -- KClose.Script 
-	local script = Instance.new('Script', KClose)
-
-	local TweenService = game:GetService("TweenService")
-	local KCloseButton = script.Parent:WaitForChild("KClose")
-	local NMainFrame = script.Parent:WaitForChild("NMain")
-	
-	local openTweenInfo = TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
-	local closeTweenInfo = TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.In)
-	local spinTweenInfo = TweenInfo.new(1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
-	
-	local openTween = TweenService:Create(NMainFrame, openTweenInfo, {Transparency = 0, Size = UDim2.new(0.5, 0, 0.5, 0)})
-	local closeTween = TweenService:Create(NMainFrame, closeTweenInfo, {Transparency = 1, Size = UDim2.new(0, 0, 0, 0)})
-	
-	local spinTween = TweenService:Create(NMainFrame, spinTweenInfo, {Rotation = 360})
-	
-	local function toggleNMainVisibility()
-		if NMainFrame.Visible then
-			spinTween:Play()
-			closeTween:Play()
-			NMainFrame.Visible = false
-			KCloseButton.Text = "Open"
-		else
-			NMainFrame.Visible = true
-			openTween:Play()
-			KCloseButton.Text = "Close"
-		end
-	end
-	
-	KCloseButton.MouseButton1Click:Connect(toggleNMainVisibility)
+	print("Hello world!")
 	
 end
-coroutine.wrap(ROTQO_fake_script)()
+coroutine.wrap(EOUOAD_fake_script)()
+local function RENAI_fake_script() -- AntiSpinner.Script 
+	local script = Instance.new('Script', AntiSpinner)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(RENAI_fake_script)()
+local function EKSSWME_fake_script() -- Fakeaccs.Script 
+	local script = Instance.new('Script', Fakeaccs)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(EKSSWME_fake_script)()
+local function EKVWQH_fake_script() -- AntiVelocity.Script 
+	local script = Instance.new('Script', AntiVelocity)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(EKVWQH_fake_script)()
+local function NMECYJ_fake_script() -- AntiArmV4.Script 
+	local script = Instance.new('Script', AntiArmV4)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(NMECYJ_fake_script)()
+local function PRCNPKY_fake_script() -- ClearFling.Script 
+	local script = Instance.new('Script', ClearFling)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(PRCNPKY_fake_script)()
+local function CRGRGXO_fake_script() -- AntiVoid.Script 
+	local script = Instance.new('Script', AntiVoid)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(CRGRGXO_fake_script)()
+local function KFWV_fake_script() -- AutoRespawn.Script 
+	local script = Instance.new('Script', AutoRespawn)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(KFWV_fake_script)()
+local function RCZB_fake_script() -- AntiStablers.Script 
+	local script = Instance.new('Script', AntiStablers)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(RCZB_fake_script)()
+local function JROJHFO_fake_script() -- ArmDeleteFling.Script 
+	local script = Instance.new('Script', ArmDeleteFling)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(JROJHFO_fake_script)()
+local function RKTI_fake_script() -- AntiSpinnerV2.Script 
+	local script = Instance.new('Script', AntiSpinnerV2)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(RKTI_fake_script)()
+local function XODOORD_fake_script() -- AntiVirus.Script 
+	local script = Instance.new('Script', AntiVirus)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(XODOORD_fake_script)()
+local function EUAIC_fake_script() -- AntiJacket.Script 
+	local script = Instance.new('Script', AntiJacket)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(EUAIC_fake_script)()
+local function VUDC_fake_script() -- AnvilFling.Script 
+	local script = Instance.new('Script', AnvilFling)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(VUDC_fake_script)()
