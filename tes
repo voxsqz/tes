@@ -1,1 +1,594 @@
-s
+--[[
+
+		Gui2Lua™
+		10zOfficial
+		Version 1.0.0
+
+]]
+
+
+-- Instances
+
+local Kaangui = Instance.new("ScreenGui")
+local NMain = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Antifling = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local Colorf = Instance.new("Frame")
+local AntiSpinner = Instance.new("TextButton")
+local Frame_2 = Instance.new("Frame")
+local Fakeaccs = Instance.new("TextButton")
+local Frame_3 = Instance.new("Frame")
+local AntiVelocity = Instance.new("TextButton")
+local Frame_4 = Instance.new("Frame")
+local AntiArmV4 = Instance.new("TextButton")
+local Frame_5 = Instance.new("Frame")
+local Fling = Instance.new("TextBox")
+local ClearFling = Instance.new("TextButton")
+local Frame_6 = Instance.new("Frame")
+local AntiVoid = Instance.new("TextButton")
+local Frame_7 = Instance.new("Frame")
+local AutoRespawn = Instance.new("TextButton")
+local Frame_8 = Instance.new("Frame")
+local AntiStablers = Instance.new("TextButton")
+local Frame_9 = Instance.new("Frame")
+local AntiRespawn = Instance.new("TextButton")
+local Frame_10 = Instance.new("Frame")
+local ArmDeleteFling = Instance.new("TextButton")
+local Frame_11 = Instance.new("Frame")
+local AntiSpinnerV2 = Instance.new("TextButton")
+local Frame_12 = Instance.new("Frame")
+local AntiVirus = Instance.new("TextButton")
+local Frame_13 = Instance.new("Frame")
+local AntiJacket = Instance.new("TextButton")
+local Frame_14 = Instance.new("Frame")
+local AnvilFling = Instance.new("TextButton")
+local Frame_15 = Instance.new("Frame")
+local KClose = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+
+-- Properties
+
+Kaangui.Name = "Kaangui"
+Kaangui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Kaangui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+NMain.Name = "NMain"
+NMain.Parent = Kaangui
+NMain.BackgroundColor3 = Color3.new(0, 0, 0)
+NMain.BackgroundTransparency = 0.30000001192092896
+NMain.BorderColor3 = Color3.new(0, 0, 0)
+NMain.BorderSizePixel = 0
+NMain.Position = UDim2.new(0.0268987343, 0, 0.288595259, 0)
+NMain.Size = UDim2.new(0, 647, 0, 380)
+NMain.Visible = false
+
+TextLabel.Parent = NMain
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(9.47750891e-08, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 643, 0, 58)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Made by vox (EfdoRB) Version. 1"
+TextLabel.TextColor3 = Color3.new(0.694118, 0.694118, 0.694118)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14
+TextLabel.TextWrapped = true
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+Antifling.Name = "Antifling"
+Antifling.Parent = NMain
+Antifling.BackgroundColor3 = Color3.new(0, 0, 0)
+Antifling.BorderColor3 = Color3.new(0, 0, 0)
+Antifling.BorderSizePixel = 0
+Antifling.Position = UDim2.new(0.0362976417, 0, 0.202247187, 0)
+Antifling.Size = UDim2.new(0, 129, 0, 41)
+Antifling.Font = Enum.Font.SourceSans
+Antifling.Text = "Antifling"
+Antifling.TextColor3 = Color3.new(1, 1, 1)
+Antifling.TextScaled = true
+Antifling.TextSize = 14
+Antifling.TextWrapped = true
+
+Frame.Parent = Antifling
+Frame.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame.BorderColor3 = Color3.new(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, 1, 0)
+Frame.Size = UDim2.new(0, 129, 0, 3)
+
+Colorf.Name = "Colorf"
+Colorf.Parent = NMain
+Colorf.BackgroundColor3 = Color3.new(0, 0.666667, 1)
+Colorf.BorderColor3 = Color3.new(0, 0, 0)
+Colorf.BorderSizePixel = 0
+Colorf.Position = UDim2.new(0, 0, 0.165016487, 0)
+Colorf.Size = UDim2.new(0, 644, 0, 2)
+
+AntiSpinner.Name = "AntiSpinner"
+AntiSpinner.Parent = NMain
+AntiSpinner.BackgroundColor3 = Color3.new(0, 0, 0)
+AntiSpinner.BorderColor3 = Color3.new(0, 0, 0)
+AntiSpinner.BorderSizePixel = 0
+AntiSpinner.Position = UDim2.new(0.263667673, 0, 0.202247217, 0)
+AntiSpinner.Size = UDim2.new(0, 129, 0, 41)
+AntiSpinner.Font = Enum.Font.SourceSans
+AntiSpinner.Text = "Antispinner"
+AntiSpinner.TextColor3 = Color3.new(1, 1, 1)
+AntiSpinner.TextScaled = true
+AntiSpinner.TextSize = 14
+AntiSpinner.TextWrapped = true
+
+Frame_2.Parent = AntiSpinner
+Frame_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame_2.BorderColor3 = Color3.new(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, 1, 0)
+Frame_2.Size = UDim2.new(0, 129, 0, 3)
+
+Fakeaccs.Name = "Fakeaccs"
+Fakeaccs.Parent = NMain
+Fakeaccs.BackgroundColor3 = Color3.new(0, 0, 0)
+Fakeaccs.BorderColor3 = Color3.new(0, 0, 0)
+Fakeaccs.BorderSizePixel = 0
+Fakeaccs.Position = UDim2.new(0.505598068, 0, 0.202247217, 0)
+Fakeaccs.Size = UDim2.new(0, 129, 0, 41)
+Fakeaccs.Font = Enum.Font.SourceSans
+Fakeaccs.Text = "FakeAccs"
+Fakeaccs.TextColor3 = Color3.new(1, 1, 1)
+Fakeaccs.TextScaled = true
+Fakeaccs.TextSize = 14
+Fakeaccs.TextWrapped = true
+
+Frame_3.Parent = Fakeaccs
+Frame_3.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame_3.BorderColor3 = Color3.new(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0, 0, 1, 0)
+Frame_3.Size = UDim2.new(0, 129, 0, 3)
+
+AntiVelocity.Name = "AntiVelocity"
+AntiVelocity.Parent = NMain
+AntiVelocity.BackgroundColor3 = Color3.new(0, 0, 0)
+AntiVelocity.BorderColor3 = Color3.new(0, 0, 0)
+AntiVelocity.BorderSizePixel = 0
+AntiVelocity.Position = UDim2.new(0.757050097, 0, 0.202247217, 0)
+AntiVelocity.Size = UDim2.new(0, 129, 0, 41)
+AntiVelocity.Font = Enum.Font.SourceSans
+AntiVelocity.Text = "AntiVelocity"
+AntiVelocity.TextColor3 = Color3.new(1, 1, 1)
+AntiVelocity.TextScaled = true
+AntiVelocity.TextSize = 14
+AntiVelocity.TextWrapped = true
+
+Frame_4.Parent = AntiVelocity
+Frame_4.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame_4.BorderColor3 = Color3.new(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0, 0, 1, 0)
+Frame_4.Size = UDim2.new(0, 129, 0, 3)
+
+AntiArmV4.Name = "AntiArmV4"
+AntiArmV4.Parent = NMain
+AntiArmV4.BackgroundColor3 = Color3.new(0, 0, 0)
+AntiArmV4.BorderColor3 = Color3.new(0, 0, 0)
+AntiArmV4.BorderSizePixel = 0
+AntiArmV4.Position = UDim2.new(0.263726771, 0, 0.363017678, 0)
+AntiArmV4.Size = UDim2.new(0, 129, 0, 41)
+AntiArmV4.Font = Enum.Font.SourceSans
+AntiArmV4.Text = "AntiArmV4"
+AntiArmV4.TextColor3 = Color3.new(1, 1, 1)
+AntiArmV4.TextScaled = true
+AntiArmV4.TextSize = 14
+AntiArmV4.TextWrapped = true
+
+Frame_5.Parent = AntiArmV4
+Frame_5.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame_5.BorderColor3 = Color3.new(0, 0, 0)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0, 0, 1, 0)
+Frame_5.Size = UDim2.new(0, 129, 0, 3)
+
+Fling.Name = "Fling"
+Fling.Parent = NMain
+Fling.BackgroundColor3 = Color3.new(0.345098, 0.345098, 0.345098)
+Fling.BackgroundTransparency = 0.4000000059604645
+Fling.BorderColor3 = Color3.new(0, 0, 0)
+Fling.BorderSizePixel = 0
+Fling.Position = UDim2.new(0.0395563468, 0, 0.71155268, 0)
+Fling.Size = UDim2.new(0, 127, 0, 41)
+Fling.Font = Enum.Font.SourceSans
+Fling.Text = "Fling"
+Fling.TextColor3 = Color3.new(0.462745, 0.462745, 0.462745)
+Fling.TextScaled = true
+Fling.TextSize = 14
+Fling.TextWrapped = true
+
+ClearFling.Name = "ClearFling"
+ClearFling.Parent = NMain
+ClearFling.BackgroundColor3 = Color3.new(0, 0, 0)
+ClearFling.BorderColor3 = Color3.new(0, 0, 0)
+ClearFling.BorderSizePixel = 0
+ClearFling.Position = UDim2.new(0.263354808, 0, 0.71155268, 0)
+ClearFling.Size = UDim2.new(0, 129, 0, 41)
+ClearFling.Font = Enum.Font.SourceSans
+ClearFling.Text = "ClearFling"
+ClearFling.TextColor3 = Color3.new(1, 1, 1)
+ClearFling.TextScaled = true
+ClearFling.TextSize = 14
+ClearFling.TextWrapped = true
+
+Frame_6.Parent = ClearFling
+Frame_6.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame_6.BorderColor3 = Color3.new(0, 0, 0)
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(0, 0, 1, 0)
+Frame_6.Size = UDim2.new(0, 129, 0, 3)
+
+AntiVoid.Name = "AntiVoid"
+AntiVoid.Parent = NMain
+AntiVoid.BackgroundColor3 = Color3.new(0, 0, 0)
+AntiVoid.BorderColor3 = Color3.new(0, 0, 0)
+AntiVoid.BorderSizePixel = 0
+AntiVoid.Position = UDim2.new(0.0383483805, 0, 0.535236895, 0)
+AntiVoid.Size = UDim2.new(0, 129, 0, 41)
+AntiVoid.Font = Enum.Font.SourceSans
+AntiVoid.Text = "Antivoid"
+AntiVoid.TextColor3 = Color3.new(1, 1, 1)
+AntiVoid.TextScaled = true
+AntiVoid.TextSize = 14
+AntiVoid.TextWrapped = true
+
+Frame_7.Parent = AntiVoid
+Frame_7.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame_7.BorderColor3 = Color3.new(0, 0, 0)
+Frame_7.BorderSizePixel = 0
+Frame_7.Position = UDim2.new(0, 0, 1, 0)
+Frame_7.Size = UDim2.new(0, 129, 0, 3)
+
+AutoRespawn.Name = "AutoRespawn"
+AutoRespawn.Parent = NMain
+AutoRespawn.BackgroundColor3 = Color3.new(0, 0, 0)
+AutoRespawn.BorderColor3 = Color3.new(0, 0, 0)
+AutoRespawn.BorderSizePixel = 0
+AutoRespawn.Position = UDim2.new(0.757050097, 0, 0.363017678, 0)
+AutoRespawn.Size = UDim2.new(0, 129, 0, 41)
+AutoRespawn.Font = Enum.Font.SourceSans
+AutoRespawn.Text = "AutoRespawn"
+AutoRespawn.TextColor3 = Color3.new(1, 1, 1)
+AutoRespawn.TextScaled = true
+AutoRespawn.TextSize = 14
+AutoRespawn.TextWrapped = true
+
+Frame_8.Parent = AutoRespawn
+Frame_8.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame_8.BorderColor3 = Color3.new(0, 0, 0)
+Frame_8.BorderSizePixel = 0
+Frame_8.Position = UDim2.new(0, 0, 1, 0)
+Frame_8.Size = UDim2.new(0, 129, 0, 3)
+
+AntiStablers.Name = "AntiStablers"
+AntiStablers.Parent = NMain
+AntiStablers.BackgroundColor3 = Color3.new(0, 0, 0)
+AntiStablers.BorderColor3 = Color3.new(0, 0, 0)
+AntiStablers.BorderSizePixel = 0
+AntiStablers.Position = UDim2.new(0.505598068, 0, 0.363017678, 0)
+AntiStablers.Size = UDim2.new(0, 129, 0, 41)
+AntiStablers.Font = Enum.Font.SourceSans
+AntiStablers.Text = "AntiStablers"
+AntiStablers.TextColor3 = Color3.new(1, 1, 1)
+AntiStablers.TextScaled = true
+AntiStablers.TextSize = 14
+AntiStablers.TextWrapped = true
+
+Frame_9.Parent = AntiStablers
+Frame_9.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame_9.BorderColor3 = Color3.new(0, 0, 0)
+Frame_9.BorderSizePixel = 0
+Frame_9.Position = UDim2.new(0, 0, 1, 0)
+Frame_9.Size = UDim2.new(0, 129, 0, 3)
+
+AntiRespawn.Name = "AntiRespawn"
+AntiRespawn.Parent = NMain
+AntiRespawn.BackgroundColor3 = Color3.new(0, 0, 0)
+AntiRespawn.BorderColor3 = Color3.new(0, 0, 0)
+AntiRespawn.BorderSizePixel = 0
+AntiRespawn.Position = UDim2.new(0.504467666, 0, 0.541965067, 0)
+AntiRespawn.Size = UDim2.new(0, 129, 0, 41)
+AntiRespawn.Font = Enum.Font.SourceSans
+AntiRespawn.Text = "AntiRespawn"
+AntiRespawn.TextColor3 = Color3.new(1, 1, 1)
+AntiRespawn.TextScaled = true
+AntiRespawn.TextSize = 14
+AntiRespawn.TextWrapped = true
+
+Frame_10.Parent = AntiRespawn
+Frame_10.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame_10.BorderColor3 = Color3.new(0, 0, 0)
+Frame_10.BorderSizePixel = 0
+Frame_10.Position = UDim2.new(0, 0, 1, 0)
+Frame_10.Size = UDim2.new(0, 129, 0, 3)
+
+ArmDeleteFling.Name = "ArmDelete (Fling)"
+ArmDeleteFling.Parent = NMain
+ArmDeleteFling.BackgroundColor3 = Color3.new(0, 0, 0)
+ArmDeleteFling.BorderColor3 = Color3.new(0, 0, 0)
+ArmDeleteFling.BorderSizePixel = 0
+ArmDeleteFling.Position = UDim2.new(0.505598068, 0, 0.71155268, 0)
+ArmDeleteFling.Size = UDim2.new(0, 129, 0, 41)
+ArmDeleteFling.Font = Enum.Font.SourceSans
+ArmDeleteFling.Text = "ArmDelete (Fling)"
+ArmDeleteFling.TextColor3 = Color3.new(1, 1, 1)
+ArmDeleteFling.TextScaled = true
+ArmDeleteFling.TextSize = 14
+ArmDeleteFling.TextWrapped = true
+
+Frame_11.Parent = ArmDeleteFling
+Frame_11.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame_11.BorderColor3 = Color3.new(0, 0, 0)
+Frame_11.BorderSizePixel = 0
+Frame_11.Position = UDim2.new(0, 0, 1, 0)
+Frame_11.Size = UDim2.new(0, 129, 0, 3)
+
+AntiSpinnerV2.Name = "AntiSpinnerV2"
+AntiSpinnerV2.Parent = NMain
+AntiSpinnerV2.BackgroundColor3 = Color3.new(0, 0, 0)
+AntiSpinnerV2.BorderColor3 = Color3.new(0, 0, 0)
+AntiSpinnerV2.BorderSizePixel = 0
+AntiSpinnerV2.Position = UDim2.new(0.0364652053, 0, 0.365405113, 0)
+AntiSpinnerV2.Size = UDim2.new(0, 129, 0, 41)
+AntiSpinnerV2.Font = Enum.Font.SourceSans
+AntiSpinnerV2.Text = "AntiSpinner v2"
+AntiSpinnerV2.TextColor3 = Color3.new(1, 1, 1)
+AntiSpinnerV2.TextScaled = true
+AntiSpinnerV2.TextSize = 14
+AntiSpinnerV2.TextWrapped = true
+
+Frame_12.Parent = AntiSpinnerV2
+Frame_12.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame_12.BorderColor3 = Color3.new(0, 0, 0)
+Frame_12.BorderSizePixel = 0
+Frame_12.Position = UDim2.new(0, 0, 1, 0)
+Frame_12.Size = UDim2.new(0, 129, 0, 3)
+
+AntiVirus.Name = "AntiVirus"
+AntiVirus.Parent = NMain
+AntiVirus.BackgroundColor3 = Color3.new(0, 0, 0)
+AntiVirus.BorderColor3 = Color3.new(0, 0, 0)
+AntiVirus.BorderSizePixel = 0
+AntiVirus.Position = UDim2.new(0.262459666, 0, 0.535236895, 0)
+AntiVirus.Size = UDim2.new(0, 129, 0, 41)
+AntiVirus.Font = Enum.Font.SourceSans
+AntiVirus.Text = "AntiVirus"
+AntiVirus.TextColor3 = Color3.new(1, 1, 1)
+AntiVirus.TextScaled = true
+AntiVirus.TextSize = 14
+AntiVirus.TextWrapped = true
+
+Frame_13.Parent = AntiVirus
+Frame_13.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame_13.BorderColor3 = Color3.new(0, 0, 0)
+Frame_13.BorderSizePixel = 0
+Frame_13.Position = UDim2.new(0, 0, 1, 0)
+Frame_13.Size = UDim2.new(0, 129, 0, 3)
+
+AntiJacket.Name = "AntiJacket"
+AntiJacket.Parent = NMain
+AntiJacket.BackgroundColor3 = Color3.new(0, 0, 0)
+AntiJacket.BorderColor3 = Color3.new(0, 0, 0)
+AntiJacket.BorderSizePixel = 0
+AntiJacket.Position = UDim2.new(0.757050097, 0, 0.549615622, 0)
+AntiJacket.Size = UDim2.new(0, 129, 0, 41)
+AntiJacket.Font = Enum.Font.SourceSans
+AntiJacket.Text = "AntiJacket"
+AntiJacket.TextColor3 = Color3.new(1, 1, 1)
+AntiJacket.TextScaled = true
+AntiJacket.TextSize = 14
+AntiJacket.TextWrapped = true
+
+Frame_14.Parent = AntiJacket
+Frame_14.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame_14.BorderColor3 = Color3.new(0, 0, 0)
+Frame_14.BorderSizePixel = 0
+Frame_14.Position = UDim2.new(0, 0, 1, 0)
+Frame_14.Size = UDim2.new(0, 129, 0, 3)
+
+AnvilFling.Name = "AnvilFling"
+AnvilFling.Parent = NMain
+AnvilFling.BackgroundColor3 = Color3.new(0, 0, 0)
+AnvilFling.BorderColor3 = Color3.new(0, 0, 0)
+AnvilFling.BorderSizePixel = 0
+AnvilFling.Position = UDim2.new(0.755984485, 0, 0.71155268, 0)
+AnvilFling.Size = UDim2.new(0, 129, 0, 41)
+AnvilFling.Font = Enum.Font.SourceSans
+AnvilFling.Text = "AnvilFling(Fling)"
+AnvilFling.TextColor3 = Color3.new(1, 1, 1)
+AnvilFling.TextScaled = true
+AnvilFling.TextSize = 14
+AnvilFling.TextWrapped = true
+
+Frame_15.Parent = AnvilFling
+Frame_15.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame_15.BorderColor3 = Color3.new(0, 0, 0)
+Frame_15.BorderSizePixel = 0
+Frame_15.Position = UDim2.new(0, 0, 1, 0)
+Frame_15.Size = UDim2.new(0, 129, 0, 3)
+
+KClose.Name = "KClose"
+KClose.Parent = Kaangui
+KClose.BackgroundColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+KClose.BorderColor3 = Color3.new(0, 0, 0)
+KClose.BorderSizePixel = 0
+KClose.Position = UDim2.new(0.00612244895, 0, 0.638038933, 0)
+KClose.Size = UDim2.new(0, 101, 0, 30)
+KClose.Font = Enum.Font.SourceSans
+KClose.Text = "Open"
+KClose.TextColor3 = Color3.new(0, 0, 0)
+KClose.TextScaled = true
+KClose.TextSize = 14
+KClose.TextWrapped = true
+
+UICorner.Parent = KClose
+
+-- Scripts
+
+local function tor(button)
+	local frame = button:FindFirstChild("Frame")
+	if frame then
+		if frame.BackgroundColor3 == Color3.fromRGB(255, 0, 0) then
+			frame.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+		else
+			frame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		end
+	end
+end
+
+local function QPLP_fake_script()
+	local button = script.Parent:FindFirstChild("Antifling")
+	if button then
+		tor(button)
+	end
+end
+coroutine.wrap(QPLP_fake_script)()
+
+local function KFTVYO_fake_script()
+	local button = script.Parent:FindFirstChild("AntiSpinner")
+	if button then
+		tor(button)
+	end
+end
+coroutine.wrap(KFTVYO_fake_script)()
+
+local function HSYELM_fake_script()
+	local button = script.Parent:FindFirstChild("Fakeaccs")
+	if button then
+		tor(button)
+	end
+end
+coroutine.wrap(HSYELM_fake_script)()
+
+local function GUMN_fake_script()
+	local button = script.Parent:FindFirstChild("AntiVelocity")
+	if button then
+		tor(button)
+	end
+end
+coroutine.wrap(GUMN_fake_script)()
+
+local function IPRFJ_fake_script()
+	local button = script.Parent:FindFirstChild("AntiArmV4")
+	if button then
+		tor(button)
+	end
+end
+coroutine.wrap(IPRFJ_fake_script)()
+
+local function XHXJ_fake_script()
+	local button = script.Parent:FindFirstChild("ClearFling")
+	if button then
+		tor(button)
+	end
+end
+coroutine.wrap(XHXJ_fake_script)()
+
+local function PPCHI_fake_script()
+	local button = script.Parent:FindFirstChild("AntiVoid")
+	if button then
+		tor(button)
+	end
+end
+coroutine.wrap(PPCHI_fake_script)()
+
+local function NRXFHEZ_fake_script()
+	local button = script.Parent:FindFirstChild("AutoRespawn")
+	if button then
+		tor(button)
+	end
+end
+coroutine.wrap(NRXFHEZ_fake_script)()
+
+local function LECT_fake_script()
+	local button = script.Parent:FindFirstChild("AntiStablers")
+	if button then
+		tor(button)
+	end
+end
+coroutine.wrap(LECT_fake_script)()
+
+local function YLINO_fake_script()
+	local button = script.Parent:FindFirstChild("ArmDeleteFling")
+	if button then
+		tor(button)
+	end
+end
+coroutine.wrap(YLINO_fake_script)()
+
+local function NYQDZ_fake_script()
+	local button = script.Parent:FindFirstChild("AntiSpinnerV2")
+	if button then
+		tor(button)
+	end
+end
+coroutine.wrap(NYQDZ_fake_script)()
+
+local function WVOR_fake_script()
+	local button = script.Parent:FindFirstChild("AntiVirus")
+	if button then
+		tor(button)
+	end
+end
+coroutine.wrap(WVOR_fake_script)()
+
+local function HFLHTJ_fake_script()
+	local button = script.Parent:FindFirstChild("AntiJacket")
+	if button then
+		tor(button)
+	end
+end
+coroutine.wrap(HFLHTJ_fake_script)()
+
+local function WSKQPM_fake_script()
+	local button = script.Parent:FindFirstChild("AnvilFling")
+	if button then
+		tor(button)
+	end
+end
+coroutine.wrap(WSKQPM_fake_script)()
+
+
+coroutine.wrap(WSKQPM_fake_script)()
+local function ROTQO_fake_script() -- KClose.Script 
+	local script = Instance.new('Script', KClose)
+
+	local TweenService = game:GetService("TweenService")
+	local KCloseButton = script.Parent:WaitForChild("KClose")
+	local NMainFrame = script.Parent:WaitForChild("NMain")
+	
+	local openTweenInfo = TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+	local closeTweenInfo = TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.In)
+	local spinTweenInfo = TweenInfo.new(1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out)
+	
+	local openTween = TweenService:Create(NMainFrame, openTweenInfo, {Transparency = 0, Size = UDim2.new(0.5, 0, 0.5, 0)})
+	local closeTween = TweenService:Create(NMainFrame, closeTweenInfo, {Transparency = 1, Size = UDim2.new(0, 0, 0, 0)})
+	
+	local spinTween = TweenService:Create(NMainFrame, spinTweenInfo, {Rotation = 360})
+	
+	local function toggleNMainVisibility()
+		if NMainFrame.Visible then
+			spinTween:Play()
+			closeTween:Play()
+			NMainFrame.Visible = false
+			KCloseButton.Text = "Open"
+		else
+			NMainFrame.Visible = true
+			openTween:Play()
+			KCloseButton.Text = "Close"
+		end
+	end
+	
+	KCloseButton.MouseButton1Click:Connect(toggleNMainVisibility)
+	
+end
+coroutine.wrap(ROTQO_fake_script)()
