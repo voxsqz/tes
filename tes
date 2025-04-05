@@ -55,7 +55,8 @@ local SS10 = Instance.new("UIStroke")
 local SS11 = Instance.new("UIStroke")
 local SS12 = Instance.new("UIStroke")
 
-
+local MS2 = Instance.new("UIStroke")
+local LS1 = Instance.new("UIStroke")
 
 KGui.Name = "KGui"
 KGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -69,6 +70,14 @@ M2.BorderColor3 = Color3.new(0, 0, 0)
 M2.BorderSizePixel = 0
 M2.Position = UDim2.new(0.235714287, 0, 0.15994437, 0)
 M2.Size = UDim2.new(0, 620, 0, 390)
+M2.Active = true
+M2.Draggable = true
+
+MS2.Name = "S1"
+MS2.Parent = M2
+MS2.Thickness = 3
+MS2.Color = Color3.fromRGB(54, 54, 54)
+MS2.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 
 L1.Name = "L1"
 L1.Parent = M2
@@ -84,6 +93,12 @@ L1.TextScaled = true
 L1.TextSize = 29
 L1.TextWrapped = true
 L1.TextXAlignment = Enum.TextXAlignment.Left
+
+LS1.Name = "S1"
+LS1.Parent = L1
+LS1.Thickness = 3
+LS1.Color = Color3.fromRGB(54, 54, 54)
+LS1.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 
 AN1.Name = "AN1"
 AN1.Parent = M2
