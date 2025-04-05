@@ -1,1347 +1,375 @@
---[[
-
-		Gui2Lua™
-		10zOfficial
-		Version 1.0.0
-
-]]
-
-
--- Instances
-
-local Inventory = Instance.new("ScreenGui")
-local Frame = Instance.new("ImageLabel")
-local _1 = Instance.new("ImageButton")
-local Number = Instance.new("TextLabel")
-local ToolName = Instance.new("TextLabel")
-local UICorner = Instance.new("UICorner")
-local Selected = Instance.new("ImageLabel")
-local UICorner_2 = Instance.new("UICorner")
-local Border = Instance.new("ImageLabel")
-local UICorner_3 = Instance.new("UICorner")
-local _2 = Instance.new("ImageButton")
-local Number_2 = Instance.new("TextLabel")
-local ToolName_2 = Instance.new("TextLabel")
-local Border_2 = Instance.new("ImageLabel")
-local UICorner_4 = Instance.new("UICorner")
-local UICorner_5 = Instance.new("UICorner")
-local Selected_2 = Instance.new("ImageLabel")
-local UICorner_6 = Instance.new("UICorner")
-local _3 = Instance.new("ImageButton")
-local ToolName_3 = Instance.new("TextLabel")
-local UICorner_7 = Instance.new("UICorner")
-local Selected_3 = Instance.new("ImageLabel")
-local UICorner_8 = Instance.new("UICorner")
-local Border_3 = Instance.new("ImageLabel")
-local UICorner_9 = Instance.new("UICorner")
-local Number_3 = Instance.new("TextLabel")
-local _4 = Instance.new("ImageButton")
-local ToolName_4 = Instance.new("TextLabel")
-local Border_4 = Instance.new("ImageLabel")
-local UICorner_10 = Instance.new("UICorner")
-local UICorner_11 = Instance.new("UICorner")
-local Selected_4 = Instance.new("ImageLabel")
-local UICorner_12 = Instance.new("UICorner")
-local Number_4 = Instance.new("TextLabel")
-local _5 = Instance.new("ImageButton")
-local ToolName_5 = Instance.new("TextLabel")
-local Border_5 = Instance.new("ImageLabel")
-local UICorner_13 = Instance.new("UICorner")
-local UICorner_14 = Instance.new("UICorner")
-local Selected_5 = Instance.new("ImageLabel")
-local UICorner_15 = Instance.new("UICorner")
-local Number_5 = Instance.new("TextLabel")
-local _6 = Instance.new("ImageButton")
-local ToolName_6 = Instance.new("TextLabel")
-local Border_6 = Instance.new("ImageLabel")
-local UICorner_16 = Instance.new("UICorner")
-local UICorner_17 = Instance.new("UICorner")
-local Selected_6 = Instance.new("ImageLabel")
-local UICorner_18 = Instance.new("UICorner")
-local Number_6 = Instance.new("TextLabel")
-local _7 = Instance.new("ImageButton")
-local ToolName_7 = Instance.new("TextLabel")
-local Border_7 = Instance.new("ImageLabel")
-local UICorner_19 = Instance.new("UICorner")
-local UICorner_20 = Instance.new("UICorner")
-local Selected_7 = Instance.new("ImageLabel")
-local UICorner_21 = Instance.new("UICorner")
-local Number_7 = Instance.new("TextLabel")
-local UIListLayout = Instance.new("UIListLayout")
-local _8 = Instance.new("ImageButton")
-local ToolName_8 = Instance.new("TextLabel")
-local Border_8 = Instance.new("ImageLabel")
-local UICorner_22 = Instance.new("UICorner")
-local UICorner_23 = Instance.new("UICorner")
-local Selected_8 = Instance.new("ImageLabel")
-local UICorner_24 = Instance.new("UICorner")
-local Number_8 = Instance.new("TextLabel")
-local _9 = Instance.new("ImageButton")
-local ToolName_9 = Instance.new("TextLabel")
-local Border_9 = Instance.new("ImageLabel")
-local UICorner_25 = Instance.new("UICorner")
-local UICorner_26 = Instance.new("UICorner")
-local Selected_9 = Instance.new("ImageLabel")
-local UICorner_27 = Instance.new("UICorner")
-local Number_9 = Instance.new("TextLabel")
-local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
-local Inventory_2 = Instance.new("Frame")
-local ImageLabel = Instance.new("ImageLabel")
-local ScrollingFrame = Instance.new("ScrollingFrame")
-local Template = Instance.new("ImageButton")
-local UICorner_28 = Instance.new("UICorner")
-local ToolName_10 = Instance.new("TextLabel")
-local Selected_10 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
-local Border_10 = Instance.new("ImageLabel")
-local UICorner_29 = Instance.new("UICorner")
-local UIGridLayout = Instance.new("UIGridLayout")
-local UIGridLayout_2 = Instance.new("UIGridLayout")
-local Template_2 = Instance.new("ImageButton")
-local Number_10 = Instance.new("TextLabel")
-local ToolName_11 = Instance.new("TextLabel")
-local Border_11 = Instance.new("ImageLabel")
-local UICorner_30 = Instance.new("UICorner")
-local UICorner_31 = Instance.new("UICorner")
-local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
-local Switch = Instance.new("ImageLabel")
-
--- Properties
-
-Inventory.Name = "Inventory"
-Inventory.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-
-Frame.Name = "Frame"
-Frame.Parent = Inventory
-Frame.Active = true
-Frame.BackgroundColor3 = Color3.new(0.211765, 0.211765, 0.231373)
-Frame.BackgroundTransparency = 1
-Frame.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.481155336, 0, 0.918562651, 0)
-Frame.Size = UDim2.new(0.0373102315, 0, 0.0624817014, 0)
-
-_1.Name = "1"
-_1.Parent = Frame
-_1.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-_1.BackgroundTransparency = 0.30000001192092896
-_1.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-_1.BorderSizePixel = 0
-_1.Position = UDim2.new(0.245283023, 0, 1.13750005, 0)
-_1.Size = UDim2.new(1, 0, 1, 0)
-
-Number.Name = "Number"
-Number.Parent = _1
-Number.BackgroundColor3 = Color3.new(1, 1, 1)
-Number.BackgroundTransparency = 1
-Number.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Number.BorderSizePixel = 0
-Number.Position = UDim2.new(0.108894497, 0, 0.102813825, 0)
-Number.Size = UDim2.new(0.37439394, 0, 0.349999845, 0)
-Number.Font = Enum.Font.GothamBlack
-Number.Text = "1"
-Number.TextColor3 = Color3.new(1, 1, 1)
-Number.TextSize = 14
-Number.TextWrapped = true
-
-ToolName.Name = "ToolName"
-ToolName.Parent = _1
-ToolName.BackgroundColor3 = Color3.new(1, 1, 1)
-ToolName.BackgroundTransparency = 1
-ToolName.BorderSizePixel = 7
-ToolName.Position = UDim2.new(-5.37059293e-07, 0, 0.451871485, 0)
-ToolName.Size = UDim2.new(0.998484433, 0, 0.410768121, 0)
-ToolName.Font = Enum.Font.GothamBold
-ToolName.Text = ""
-ToolName.TextColor3 = Color3.new(1, 1, 1)
-ToolName.TextSize = 10
-ToolName.TextWrapped = true
-
-UICorner.Parent = _1
-UICorner.CornerRadius = UDim.new(0.100000001, 0)
-
-Selected.Name = "Selected"
-Selected.Parent = _1
-Selected.BackgroundColor3 = Color3.new(1, 1, 1)
-Selected.BackgroundTransparency = 1
-Selected.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Selected.Size = UDim2.new(0.998484075, 0, 0.999999821, 0)
-Selected.Visible = false
-Selected.ZIndex = 5
-Selected.Image = "rbxassetid://9749570825"
-
-UICorner_2.Parent = Selected
-UICorner_2.CornerRadius = UDim.new(0.100000001, 0)
-
-Border.Name = "Border"
-Border.Parent = _1
-Border.BackgroundColor3 = Color3.new(1, 1, 1)
-Border.BackgroundTransparency = 1
-Border.BorderColor3 = Color3.new(0.0588235, 1, 0.0588235)
-Border.Position = UDim2.new(-3.16649675e-08, 0, 0.0171356369, 0)
-Border.Size = UDim2.new(0.998484075, 0, 0.966667712, 0)
-Border.Image = "rbxassetid://9749485075"
-Border.ImageColor3 = Color3.new(0, 0, 0)
-Border.ImageTransparency = 0.20000000298023224
-
-UICorner_3.Parent = Border
-UICorner_3.CornerRadius = UDim.new(0.100000001, 0)
-
-_2.Name = "2"
-_2.Parent = Frame
-_2.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-_2.BackgroundTransparency = 0.30000001192092896
-_2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-_2.BorderSizePixel = 0
-_2.Position = UDim2.new(0.245283023, 0, 1.13750005, 0)
-_2.Size = UDim2.new(1, 0, 1, 0)
-
-Number_2.Name = "Number"
-Number_2.Parent = _2
-Number_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Number_2.BackgroundTransparency = 1
-Number_2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Number_2.Position = UDim2.new(0.108894497, 0, 0.102813825, 0)
-Number_2.Size = UDim2.new(0.37439394, 0, 0.349999845, 0)
-Number_2.Font = Enum.Font.GothamBlack
-Number_2.Text = "2"
-Number_2.TextColor3 = Color3.new(1, 1, 1)
-Number_2.TextSize = 14
-Number_2.TextWrapped = true
-
-ToolName_2.Name = "ToolName"
-ToolName_2.Parent = _2
-ToolName_2.BackgroundColor3 = Color3.new(1, 1, 1)
-ToolName_2.BackgroundTransparency = 1
-ToolName_2.BorderSizePixel = 7
-ToolName_2.Position = UDim2.new(0, 0, 0.451871485, 0)
-ToolName_2.Size = UDim2.new(0.998484433, 0, 0.410768121, 0)
-ToolName_2.Font = Enum.Font.GothamBold
-ToolName_2.Text = ""
-ToolName_2.TextColor3 = Color3.new(1, 1, 1)
-ToolName_2.TextSize = 10
-ToolName_2.TextWrapped = true
-
-Border_2.Name = "Border"
-Border_2.Parent = _2
-Border_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Border_2.BackgroundTransparency = 1
-Border_2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Border_2.Position = UDim2.new(0, 0, 0.0171356201, 0)
-Border_2.Size = UDim2.new(0.998484075, 0, 0.966667712, 0)
-Border_2.Image = "rbxassetid://9749485075"
-Border_2.ImageColor3 = Color3.new(0, 0, 0)
-Border_2.ImageTransparency = 0.20000000298023224
-
-UICorner_4.Parent = Border_2
-UICorner_4.CornerRadius = UDim.new(0.100000001, 0)
-
-UICorner_5.Parent = _2
-UICorner_5.CornerRadius = UDim.new(0.100000001, 0)
-
-Selected_2.Name = "Selected"
-Selected_2.Parent = _2
-Selected_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Selected_2.BackgroundTransparency = 1
-Selected_2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Selected_2.Size = UDim2.new(0.998484075, 0, 0.999999821, 0)
-Selected_2.Visible = false
-Selected_2.ZIndex = 5
-Selected_2.Image = "rbxassetid://9749570825"
-
-UICorner_6.Parent = Selected_2
-UICorner_6.CornerRadius = UDim.new(0.100000001, 0)
-
-_3.Name = "3"
-_3.Parent = Frame
-_3.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-_3.BackgroundTransparency = 0.30000001192092896
-_3.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-_3.BorderSizePixel = 0
-_3.Position = UDim2.new(0.245283023, 0, 1.13750005, 0)
-_3.Size = UDim2.new(1, 0, 1, 0)
-
-ToolName_3.Name = "ToolName"
-ToolName_3.Parent = _3
-ToolName_3.BackgroundColor3 = Color3.new(1, 1, 1)
-ToolName_3.BackgroundTransparency = 1
-ToolName_3.BorderSizePixel = 7
-ToolName_3.Position = UDim2.new(0, 0, 0.451871485, 0)
-ToolName_3.Size = UDim2.new(0.998484433, 0, 0.410768121, 0)
-ToolName_3.Font = Enum.Font.GothamBold
-ToolName_3.Text = ""
-ToolName_3.TextColor3 = Color3.new(1, 1, 1)
-ToolName_3.TextSize = 10
-ToolName_3.TextWrapped = true
-
-UICorner_7.Parent = _3
-UICorner_7.CornerRadius = UDim.new(0.100000001, 0)
-
-Selected_3.Name = "Selected"
-Selected_3.Parent = _3
-Selected_3.BackgroundColor3 = Color3.new(1, 1, 1)
-Selected_3.BackgroundTransparency = 1
-Selected_3.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Selected_3.Size = UDim2.new(0.998484075, 0, 0.999999821, 0)
-Selected_3.Visible = false
-Selected_3.ZIndex = 5
-Selected_3.Image = "rbxassetid://9749570825"
-
-UICorner_8.Parent = Selected_3
-UICorner_8.CornerRadius = UDim.new(0.100000001, 0)
-
-Border_3.Name = "Border"
-Border_3.Parent = _3
-Border_3.BackgroundColor3 = Color3.new(1, 1, 1)
-Border_3.BackgroundTransparency = 1
-Border_3.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Border_3.Position = UDim2.new(0, 0, 0.0171356201, 0)
-Border_3.Size = UDim2.new(0.998484075, 0, 0.966667712, 0)
-Border_3.Image = "rbxassetid://9749485075"
-Border_3.ImageColor3 = Color3.new(0, 0, 0)
-Border_3.ImageTransparency = 0.20000000298023224
-
-UICorner_9.Parent = Border_3
-UICorner_9.CornerRadius = UDim.new(0.100000001, 0)
-
-Number_3.Name = "Number"
-Number_3.Parent = _3
-Number_3.BackgroundColor3 = Color3.new(1, 1, 1)
-Number_3.BackgroundTransparency = 1
-Number_3.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Number_3.Position = UDim2.new(0.108894497, 0, 0.102813825, 0)
-Number_3.Size = UDim2.new(0.37439394, 0, 0.349999845, 0)
-Number_3.Font = Enum.Font.GothamBlack
-Number_3.Text = "3"
-Number_3.TextColor3 = Color3.new(1, 1, 1)
-Number_3.TextSize = 14
-Number_3.TextWrapped = true
-
-_4.Name = "4"
-_4.Parent = Frame
-_4.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-_4.BackgroundTransparency = 0.30000001192092896
-_4.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-_4.BorderSizePixel = 0
-_4.Position = UDim2.new(0.245283023, 0, 1.13750005, 0)
-_4.Size = UDim2.new(1, 0, 1, 0)
-
-ToolName_4.Name = "ToolName"
-ToolName_4.Parent = _4
-ToolName_4.BackgroundColor3 = Color3.new(1, 1, 1)
-ToolName_4.BackgroundTransparency = 1
-ToolName_4.BorderSizePixel = 7
-ToolName_4.Position = UDim2.new(0, 0, 0.451871485, 0)
-ToolName_4.Size = UDim2.new(0.998484433, 0, 0.410768121, 0)
-ToolName_4.Font = Enum.Font.GothamBold
-ToolName_4.Text = ""
-ToolName_4.TextColor3 = Color3.new(1, 1, 1)
-ToolName_4.TextSize = 10
-ToolName_4.TextWrapped = true
-
-Border_4.Name = "Border"
-Border_4.Parent = _4
-Border_4.BackgroundColor3 = Color3.new(1, 1, 1)
-Border_4.BackgroundTransparency = 1
-Border_4.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Border_4.Position = UDim2.new(0, 0, 0.0171356201, 0)
-Border_4.Size = UDim2.new(0.998484075, 0, 0.966667712, 0)
-Border_4.Image = "rbxassetid://9749485075"
-Border_4.ImageColor3 = Color3.new(0, 0, 0)
-Border_4.ImageTransparency = 0.20000000298023224
-
-UICorner_10.Parent = Border_4
-UICorner_10.CornerRadius = UDim.new(0.100000001, 0)
-
-UICorner_11.Parent = _4
-UICorner_11.CornerRadius = UDim.new(0.100000001, 0)
-
-Selected_4.Name = "Selected"
-Selected_4.Parent = _4
-Selected_4.BackgroundColor3 = Color3.new(1, 1, 1)
-Selected_4.BackgroundTransparency = 1
-Selected_4.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Selected_4.Size = UDim2.new(0.998484075, 0, 0.999999821, 0)
-Selected_4.Visible = false
-Selected_4.ZIndex = 5
-Selected_4.Image = "rbxassetid://9749570825"
-
-UICorner_12.Parent = Selected_4
-UICorner_12.CornerRadius = UDim.new(0.100000001, 0)
-
-Number_4.Name = "Number"
-Number_4.Parent = _4
-Number_4.BackgroundColor3 = Color3.new(1, 1, 1)
-Number_4.BackgroundTransparency = 1
-Number_4.BorderColor3 = Color3.new(1, 1, 1)
-Number_4.BorderSizePixel = 0
-Number_4.Position = UDim2.new(0.108894497, 0, 0.102813825, 0)
-Number_4.Size = UDim2.new(0.37439394, 0, 0.349999845, 0)
-Number_4.Font = Enum.Font.GothamBlack
-Number_4.Text = "4"
-Number_4.TextColor3 = Color3.new(1, 1, 1)
-Number_4.TextSize = 14
-Number_4.TextWrapped = true
-
-_5.Name = "5"
-_5.Parent = Frame
-_5.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-_5.BackgroundTransparency = 0.30000001192092896
-_5.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-_5.BorderSizePixel = 0
-_5.Position = UDim2.new(3.72641516, 0, 2.69999981, 0)
-_5.Size = UDim2.new(1, 0, 1, 0)
-
-ToolName_5.Name = "ToolName"
-ToolName_5.Parent = _5
-ToolName_5.BackgroundColor3 = Color3.new(1, 1, 1)
-ToolName_5.BackgroundTransparency = 1
-ToolName_5.BorderSizePixel = 7
-ToolName_5.Position = UDim2.new(0, 0, 0.451871485, 0)
-ToolName_5.Size = UDim2.new(0.998484433, 0, 0.410768121, 0)
-ToolName_5.Font = Enum.Font.GothamBold
-ToolName_5.Text = ""
-ToolName_5.TextColor3 = Color3.new(1, 1, 1)
-ToolName_5.TextSize = 10
-ToolName_5.TextWrapped = true
-
-Border_5.Name = "Border"
-Border_5.Parent = _5
-Border_5.BackgroundColor3 = Color3.new(1, 1, 1)
-Border_5.BackgroundTransparency = 1
-Border_5.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Border_5.Position = UDim2.new(-1.86264515e-09, 0, 0.0171356201, 0)
-Border_5.Size = UDim2.new(0.998484075, 0, 0.966667712, 0)
-Border_5.Image = "rbxassetid://9749485075"
-Border_5.ImageColor3 = Color3.new(0, 0, 0)
-Border_5.ImageTransparency = 0.20000000298023224
-
-UICorner_13.Parent = Border_5
-UICorner_13.CornerRadius = UDim.new(0.100000001, 0)
-
-UICorner_14.Parent = _5
-UICorner_14.CornerRadius = UDim.new(0.100000001, 0)
-
-Selected_5.Name = "Selected"
-Selected_5.Parent = _5
-Selected_5.BackgroundColor3 = Color3.new(1, 1, 1)
-Selected_5.BackgroundTransparency = 1
-Selected_5.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Selected_5.Size = UDim2.new(0.998484075, 0, 0.999999821, 0)
-Selected_5.Visible = false
-Selected_5.ZIndex = 5
-Selected_5.Image = "rbxassetid://9749570825"
-
-UICorner_15.Parent = Selected_5
-UICorner_15.CornerRadius = UDim.new(0.100000001, 0)
-
-Number_5.Name = "Number"
-Number_5.Parent = _5
-Number_5.BackgroundColor3 = Color3.new(1, 1, 1)
-Number_5.BackgroundTransparency = 1
-Number_5.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Number_5.Position = UDim2.new(0.108894497, 0, 0.102813825, 0)
-Number_5.Size = UDim2.new(0.37439394, 0, 0.349999845, 0)
-Number_5.Font = Enum.Font.GothamBlack
-Number_5.Text = "5"
-Number_5.TextColor3 = Color3.new(1, 1, 1)
-Number_5.TextSize = 14
-Number_5.TextWrapped = true
-
-_6.Name = "6"
-_6.Parent = Frame
-_6.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-_6.BackgroundTransparency = 0.30000001192092896
-_6.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-_6.BorderSizePixel = 0
-_6.Position = UDim2.new(0.245283023, 0, 1.13750005, 0)
-_6.Size = UDim2.new(1, 0, 1, 0)
-
-ToolName_6.Name = "ToolName"
-ToolName_6.Parent = _6
-ToolName_6.BackgroundColor3 = Color3.new(1, 1, 1)
-ToolName_6.BackgroundTransparency = 1
-ToolName_6.BorderSizePixel = 7
-ToolName_6.Position = UDim2.new(0, 0, 0.451871485, 0)
-ToolName_6.Size = UDim2.new(0.998484433, 0, 0.410768121, 0)
-ToolName_6.Font = Enum.Font.GothamBold
-ToolName_6.Text = ""
-ToolName_6.TextColor3 = Color3.new(1, 1, 1)
-ToolName_6.TextSize = 10
-ToolName_6.TextWrapped = true
-
-Border_6.Name = "Border"
-Border_6.Parent = _6
-Border_6.BackgroundColor3 = Color3.new(1, 1, 1)
-Border_6.BackgroundTransparency = 1
-Border_6.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Border_6.Position = UDim2.new(0, 0, 0.0171356369, 0)
-Border_6.Size = UDim2.new(0.998484075, 0, 0.966667712, 0)
-Border_6.Image = "rbxassetid://9749485075"
-Border_6.ImageColor3 = Color3.new(0, 0, 0)
-Border_6.ImageTransparency = 0.20000000298023224
-
-UICorner_16.Parent = Border_6
-UICorner_16.CornerRadius = UDim.new(0.100000001, 0)
-
-UICorner_17.Parent = _6
-UICorner_17.CornerRadius = UDim.new(0.100000001, 0)
-
-Selected_6.Name = "Selected"
-Selected_6.Parent = _6
-Selected_6.BackgroundColor3 = Color3.new(1, 1, 1)
-Selected_6.BackgroundTransparency = 1
-Selected_6.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Selected_6.Size = UDim2.new(0.998484075, 0, 0.999999821, 0)
-Selected_6.Visible = false
-Selected_6.ZIndex = 5
-Selected_6.Image = "rbxassetid://9749570825"
-
-UICorner_18.Parent = Selected_6
-UICorner_18.CornerRadius = UDim.new(0.100000001, 0)
-
-Number_6.Name = "Number"
-Number_6.Parent = _6
-Number_6.BackgroundColor3 = Color3.new(1, 1, 1)
-Number_6.BackgroundTransparency = 1
-Number_6.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Number_6.Position = UDim2.new(0.108894497, 0, 0.102813825, 0)
-Number_6.Size = UDim2.new(0.37439394, 0, 0.349999845, 0)
-Number_6.Font = Enum.Font.GothamBlack
-Number_6.Text = "6"
-Number_6.TextColor3 = Color3.new(1, 1, 1)
-Number_6.TextSize = 14
-Number_6.TextWrapped = true
-
-_7.Name = "7"
-_7.Parent = Frame
-_7.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-_7.BackgroundTransparency = 0.30000001192092896
-_7.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-_7.BorderSizePixel = 0
-_7.Position = UDim2.new(0.245283023, 0, 1.13750005, 0)
-_7.Size = UDim2.new(1, 0, 1, 0)
-
-ToolName_7.Name = "ToolName"
-ToolName_7.Parent = _7
-ToolName_7.BackgroundColor3 = Color3.new(1, 1, 1)
-ToolName_7.BackgroundTransparency = 1
-ToolName_7.BorderSizePixel = 7
-ToolName_7.Position = UDim2.new(0, 0, 0.451871485, 0)
-ToolName_7.Size = UDim2.new(0.998484433, 0, 0.410768121, 0)
-ToolName_7.Font = Enum.Font.GothamBold
-ToolName_7.Text = ""
-ToolName_7.TextColor3 = Color3.new(1, 1, 1)
-ToolName_7.TextSize = 10
-ToolName_7.TextWrapped = true
-
-Border_7.Name = "Border"
-Border_7.Parent = _7
-Border_7.BackgroundColor3 = Color3.new(1, 1, 1)
-Border_7.BackgroundTransparency = 1
-Border_7.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Border_7.Position = UDim2.new(0, 0, 0.0171356369, 0)
-Border_7.Size = UDim2.new(0.998484075, 0, 0.966667712, 0)
-Border_7.Image = "rbxassetid://9749485075"
-Border_7.ImageColor3 = Color3.new(0, 0, 0)
-Border_7.ImageTransparency = 0.20000000298023224
-
-UICorner_19.Parent = Border_7
-UICorner_19.CornerRadius = UDim.new(0.100000001, 0)
-
-UICorner_20.Parent = _7
-UICorner_20.CornerRadius = UDim.new(0.100000001, 0)
-
-Selected_7.Name = "Selected"
-Selected_7.Parent = _7
-Selected_7.BackgroundColor3 = Color3.new(1, 1, 1)
-Selected_7.BackgroundTransparency = 1
-Selected_7.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Selected_7.Size = UDim2.new(0.998484075, 0, 0.999999821, 0)
-Selected_7.Visible = false
-Selected_7.ZIndex = 5
-Selected_7.Image = "rbxassetid://9749570825"
-
-UICorner_21.Parent = Selected_7
-UICorner_21.CornerRadius = UDim.new(0.100000001, 0)
-
-Number_7.Name = "Number"
-Number_7.Parent = _7
-Number_7.BackgroundColor3 = Color3.new(1, 1, 1)
-Number_7.BackgroundTransparency = 1
-Number_7.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Number_7.Position = UDim2.new(0.108894497, 0, 0.102813825, 0)
-Number_7.Size = UDim2.new(0.37439394, 0, 0.349999845, 0)
-Number_7.Font = Enum.Font.GothamBlack
-Number_7.Text = "7"
-Number_7.TextColor3 = Color3.new(1, 1, 1)
-Number_7.TextSize = 14
-Number_7.TextWrapped = true
-
-UIListLayout.Parent = Frame
-UIListLayout.FillDirection = Enum.FillDirection.Horizontal
-UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
-UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Bottom
-UIListLayout.Padding = UDim.new(0.0500000007, 0)
-
-_8.Name = "8"
-_8.Parent = Frame
-_8.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-_8.BackgroundTransparency = 0.30000001192092896
-_8.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-_8.BorderSizePixel = 0
-_8.Position = UDim2.new(0.245283023, 0, 1.13750005, 0)
-_8.Size = UDim2.new(1, 0, 1, 0)
-
-ToolName_8.Name = "ToolName"
-ToolName_8.Parent = _8
-ToolName_8.BackgroundColor3 = Color3.new(1, 1, 1)
-ToolName_8.BackgroundTransparency = 1
-ToolName_8.BorderSizePixel = 7
-ToolName_8.Position = UDim2.new(0, 0, 0.451871485, 0)
-ToolName_8.Size = UDim2.new(0.998484433, 0, 0.410768121, 0)
-ToolName_8.Font = Enum.Font.GothamBold
-ToolName_8.Text = ""
-ToolName_8.TextColor3 = Color3.new(1, 1, 1)
-ToolName_8.TextSize = 10
-ToolName_8.TextWrapped = true
-
-Border_8.Name = "Border"
-Border_8.Parent = _8
-Border_8.BackgroundColor3 = Color3.new(1, 1, 1)
-Border_8.BackgroundTransparency = 1
-Border_8.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Border_8.Position = UDim2.new(0, 0, 0.0171356369, 0)
-Border_8.Size = UDim2.new(0.998484075, 0, 0.966667712, 0)
-Border_8.Image = "rbxassetid://9749485075"
-Border_8.ImageColor3 = Color3.new(0, 0, 0)
-Border_8.ImageTransparency = 0.20000000298023224
-
-UICorner_22.Parent = Border_8
-UICorner_22.CornerRadius = UDim.new(0.100000001, 0)
-
-UICorner_23.Parent = _8
-UICorner_23.CornerRadius = UDim.new(0.100000001, 0)
-
-Selected_8.Name = "Selected"
-Selected_8.Parent = _8
-Selected_8.BackgroundColor3 = Color3.new(1, 1, 1)
-Selected_8.BackgroundTransparency = 1
-Selected_8.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Selected_8.Size = UDim2.new(0.998484075, 0, 0.999999821, 0)
-Selected_8.Visible = false
-Selected_8.ZIndex = 5
-Selected_8.Image = "rbxassetid://9749570825"
-
-UICorner_24.Parent = Selected_8
-UICorner_24.CornerRadius = UDim.new(0.100000001, 0)
-
-Number_8.Name = "Number"
-Number_8.Parent = _8
-Number_8.BackgroundColor3 = Color3.new(1, 1, 1)
-Number_8.BackgroundTransparency = 1
-Number_8.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Number_8.Position = UDim2.new(0.108894497, 0, 0.102813825, 0)
-Number_8.Size = UDim2.new(0.37439394, 0, 0.349999845, 0)
-Number_8.Font = Enum.Font.GothamBlack
-Number_8.Text = "8"
-Number_8.TextColor3 = Color3.new(1, 1, 1)
-Number_8.TextSize = 14
-Number_8.TextWrapped = true
-
-_9.Name = "9"
-_9.Parent = Frame
-_9.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-_9.BackgroundTransparency = 0.30000001192092896
-_9.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-_9.BorderSizePixel = 0
-_9.Position = UDim2.new(0.245283023, 0, 1.13750005, 0)
-_9.Size = UDim2.new(1, 0, 1, 0)
-
-ToolName_9.Name = "ToolName"
-ToolName_9.Parent = _9
-ToolName_9.BackgroundColor3 = Color3.new(1, 1, 1)
-ToolName_9.BackgroundTransparency = 1
-ToolName_9.BorderSizePixel = 7
-ToolName_9.Position = UDim2.new(0, 0, 0.451871485, 0)
-ToolName_9.Size = UDim2.new(0.998484433, 0, 0.410768121, 0)
-ToolName_9.Font = Enum.Font.GothamBold
-ToolName_9.Text = ""
-ToolName_9.TextColor3 = Color3.new(1, 1, 1)
-ToolName_9.TextSize = 10
-ToolName_9.TextWrapped = true
-
-Border_9.Name = "Border"
-Border_9.Parent = _9
-Border_9.BackgroundColor3 = Color3.new(1, 1, 1)
-Border_9.BackgroundTransparency = 1
-Border_9.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Border_9.Position = UDim2.new(0, 0, 0.0171356201, 0)
-Border_9.Size = UDim2.new(0.998484075, 0, 0.966667712, 0)
-Border_9.Image = "rbxassetid://9749485075"
-Border_9.ImageColor3 = Color3.new(0, 0, 0)
-Border_9.ImageTransparency = 0.20000000298023224
-
-UICorner_25.Parent = Border_9
-UICorner_25.CornerRadius = UDim.new(0.100000001, 0)
-
-UICorner_26.Parent = _9
-UICorner_26.CornerRadius = UDim.new(0.100000001, 0)
-
-Selected_9.Name = "Selected"
-Selected_9.Parent = _9
-Selected_9.BackgroundColor3 = Color3.new(1, 1, 1)
-Selected_9.BackgroundTransparency = 1
-Selected_9.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Selected_9.Size = UDim2.new(0.998484075, 0, 0.999999821, 0)
-Selected_9.Visible = false
-Selected_9.ZIndex = 5
-Selected_9.Image = "rbxassetid://9749570825"
-
-UICorner_27.Parent = Selected_9
-UICorner_27.CornerRadius = UDim.new(0.100000001, 0)
-
-Number_9.Name = "Number"
-Number_9.Parent = _9
-Number_9.BackgroundColor3 = Color3.new(1, 1, 1)
-Number_9.BackgroundTransparency = 1
-Number_9.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Number_9.Position = UDim2.new(0.108894497, 0, 0.102813825, 0)
-Number_9.Size = UDim2.new(0.37439394, 0, 0.349999845, 0)
-Number_9.Font = Enum.Font.GothamBlack
-Number_9.Text = "9"
-Number_9.TextColor3 = Color3.new(1, 1, 1)
-Number_9.TextSize = 14
-Number_9.TextWrapped = true
-
-UIAspectRatioConstraint.Parent = Frame
-UIAspectRatioConstraint.AspectRatio = 0.9852052330970764
-
-Inventory_2.Name = "Inventory"
-Inventory_2.Parent = Inventory
-Inventory_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Inventory_2.BackgroundTransparency = 1
-Inventory_2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Inventory_2.Position = UDim2.new(0.338333964, 0, 0.67260474, 0)
-Inventory_2.Size = UDim2.new(0.322051913, 0, 0.215685815, 0)
-Inventory_2.Visible = false
-Inventory_2.ZIndex = 2
-
-ImageLabel.Parent = Inventory_2
-ImageLabel.BackgroundColor3 = Color3.new(0.105882, 0.105882, 0.105882)
-ImageLabel.BackgroundTransparency = 0.20000000298023224
-ImageLabel.BorderColor3 = Color3.new(0.207843, 0.207843, 0.207843)
-ImageLabel.BorderSizePixel = 0
-ImageLabel.Size = UDim2.new(1, 0, 1, 0)
-ImageLabel.ZIndex = 5
-
-ScrollingFrame.Parent = ImageLabel
-ScrollingFrame.Active = true
-ScrollingFrame.BackgroundColor3 = Color3.new(1, 1, 1)
-ScrollingFrame.BackgroundTransparency = 1
-ScrollingFrame.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-ScrollingFrame.BorderSizePixel = 0
-ScrollingFrame.Position = UDim2.new(0.0250000004, 0, 0.100000001, 0)
-ScrollingFrame.Selectable = false
-ScrollingFrame.Size = UDim2.new(0.949999988, 0, 0.800000012, 0)
-ScrollingFrame.ZIndex = 5
-ScrollingFrame.BottomImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
-ScrollingFrame.CanvasSize = UDim2.new(0, 0, 10, 0)
-ScrollingFrame.TopImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
-ScrollingFrame.VerticalScrollBarInset = Enum.ScrollBarInset.Always
-
-Template.Name = "Template"
-Template.Parent = ScrollingFrame
-Template.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-Template.BackgroundTransparency = 0.30000001192092896
-Template.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Template.BorderSizePixel = 0
-Template.Size = UDim2.new(0.128000006, 0, 0.0299999993, 0)
-Template.Visible = false
-Template.ZIndex = 5
-
-UICorner_28.Parent = Template
-UICorner_28.CornerRadius = UDim.new(0.100000001, 0)
-
-ToolName_10.Name = "ToolName"
-ToolName_10.Parent = Template
-ToolName_10.BackgroundColor3 = Color3.new(1, 1, 1)
-ToolName_10.BackgroundTransparency = 1
-ToolName_10.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-ToolName_10.Position = UDim2.new(0, 0, 0.349999994, 0)
-ToolName_10.Size = UDim2.new(0.998484433, 0, 0.349999845, 0)
-ToolName_10.ZIndex = 9
-ToolName_10.Font = Enum.Font.SourceSans
-ToolName_10.Text = ""
-ToolName_10.TextColor3 = Color3.new(1, 1, 1)
-ToolName_10.TextScaled = true
-ToolName_10.TextSize = 14
-ToolName_10.TextWrapped = true
-
-Selected_10.Name = "Selected"
-Selected_10.Parent = Template
-Selected_10.Active = true
-Selected_10.BackgroundColor3 = Color3.new(1, 1, 1)
-Selected_10.BackgroundTransparency = 1
-Selected_10.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Selected_10.Size = UDim2.new(1, 0, 1, 0)
-Selected_10.Visible = false
-Selected_10.ZIndex = 10
-Selected_10.Image = "rbxassetid://5223703102"
-
-UIAspectRatioConstraint_2.Parent = Template
-UIAspectRatioConstraint_2.AspectRatio = 0.9909459948539734
-
-Border_10.Name = "Border"
-Border_10.Parent = Template
-Border_10.Active = true
-Border_10.BackgroundColor3 = Color3.new(1, 1, 1)
-Border_10.BackgroundTransparency = 1
-Border_10.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Border_10.Size = UDim2.new(1, 0, 1, 0)
-Border_10.ZIndex = 9
-Border_10.Image = "rbxassetid://44455814"
-
-UICorner_29.Parent = Border_10
-UICorner_29.CornerRadius = UDim.new(0.100000001, 0)
-
-UIGridLayout.Parent = ScrollingFrame
-UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
-UIGridLayout.CellPadding = UDim2.new(0.00999999978, 0, 0.00999999978, 0)
-UIGridLayout.CellSize = UDim2.new(0.128000006, 0, 0.0299999993, 0)
-
-UIGridLayout_2.Parent = game.StarterGui.Inventory.Manager
-UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
-UIGridLayout_2.CellPadding = UDim2.new(0.0199999996, 0, 0.0500000007, 0)
-UIGridLayout_2.CellSize = UDim2.new(0.0900000036, 0, 0.140000001, 0)
-
-Template_2.Name = "Template"
-Template_2.Parent = Inventory
-Template_2.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
-Template_2.BackgroundTransparency = 0.30000001192092896
-Template_2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Template_2.BorderSizePixel = 0
-Template_2.Position = UDim2.new(0.612172842, 0, 0.916903555, 0)
-Template_2.Selectable = false
-Template_2.Size = UDim2.new(0.0370000005, 0, 0.061999999, 0)
-Template_2.Visible = false
-Template_2.ZIndex = 10
-Template_2.AutoButtonColor = false
-
-Number_10.Name = "Number"
-Number_10.Parent = Template_2
-Number_10.BackgroundColor3 = Color3.new(1, 1, 1)
-Number_10.BackgroundTransparency = 1
-Number_10.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Number_10.Position = UDim2.new(-0.0128562236, 0, 0, 0)
-Number_10.Size = UDim2.new(0.37439394, 0, 0.349999845, 0)
-Number_10.ZIndex = 12
-Number_10.Font = Enum.Font.SourceSans
-Number_10.Text = "1"
-Number_10.TextColor3 = Color3.new(1, 1, 1)
-Number_10.TextScaled = true
-Number_10.TextSize = 14
-Number_10.TextStrokeTransparency = 0
-Number_10.TextWrapped = true
-
-ToolName_11.Name = "ToolName"
-ToolName_11.Parent = Template_2
-ToolName_11.BackgroundColor3 = Color3.new(1, 1, 1)
-ToolName_11.BackgroundTransparency = 1
-ToolName_11.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-ToolName_11.Position = UDim2.new(0, 0, 0.349999994, 0)
-ToolName_11.Size = UDim2.new(0.998484433, 0, 0.349999845, 0)
-ToolName_11.ZIndex = 12
-ToolName_11.Font = Enum.Font.SourceSans
-ToolName_11.Text = ""
-ToolName_11.TextColor3 = Color3.new(1, 1, 1)
-ToolName_11.TextScaled = true
-ToolName_11.TextSize = 14
-ToolName_11.TextWrapped = true
-
-Border_11.Name = "Border"
-Border_11.Parent = Template_2
-Border_11.Active = true
-Border_11.BackgroundColor3 = Color3.new(1, 1, 1)
-Border_11.BackgroundTransparency = 1
-Border_11.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Border_11.Size = UDim2.new(0.998484075, 0, 0.966667712, 0)
-Border_11.ZIndex = 12
-Border_11.Image = "rbxassetid://44455814"
-
-UICorner_30.Parent = Border_11
-UICorner_30.CornerRadius = UDim.new(0.100000001, 0)
-
-UICorner_31.Parent = Template_2
-UICorner_31.CornerRadius = UDim.new(0.100000001, 0)
-
-UIAspectRatioConstraint_3.Parent = Template_2
-UIAspectRatioConstraint_3.AspectRatio = 0.9852052330970764
-
-Switch.Name = "Switch"
-Switch.Parent = Template_2
-Switch.Active = true
-Switch.BackgroundColor3 = Color3.new(1, 1, 1)
-Switch.BackgroundTransparency = 1
-Switch.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
-Switch.Size = UDim2.new(0.998484075, 0, 0.966667712, 0)
-Switch.ZIndex = 12
-Switch.Image = "rbxassetid://5223703102"
-
--- Scripts
-
-local function YATOPAP_fake_script() -- Inventory.Manager 
-	local script = Instance.new('LocalScript', Inventory)
-
-	if game:GetService("UserInputService").TouchEnabled ~= true then
-		game:GetService('StarterGui'):SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, false)
-	
-		local CurrentSlotEquipped = ""
-	
-		--< variables >--
-		local uis = game:GetService("UserInputService")
-		local player = game.Players.LocalPlayer
-		local char = workspace:WaitForChild(player.Name) -- added WaitForChild
-		local bp = player.Backpack
-		local hum = char:WaitForChild("Humanoid")
-	
-		local frame = script.Parent:WaitForChild("Frame")
-		local inventory = script.Parent:WaitForChild("Inventory")
-		local ScrollFrame =  inventory.ImageLabel.ScrollingFrame
-	
-		frame.Visible = true
-	
-		--<Properties>--
-		local equippedTransparency = 0
-		local unequippedTrnasparency = .2
-	
-		local Dragging = false
-	
-		local ItemDragged  =  nil
-		local PasteItem = nil
-	
-		local mouse =  player:GetMouse()
-		local MouseGui = script.Parent:WaitForChild("Template")
-	
-	
-		local OwnedTools = {}
-	
-		table.insert(OwnedTools,1,"")
-		for i = 1,9 do
-			table.insert(OwnedTools,#OwnedTools+1,"")
+local KGui = Instance.new("ScreenGui")
+local M2 = Instance.new("Frame")
+local L1 = Instance.new("TextLabel")
+local C1 = Instance.new("Frame")
+local AN1 = Instance.new("TextButton")
+local CO1 = Instance.new("Frame")
+local AN2 = Instance.new("TextButton")
+local CO2 = Instance.new("Frame")
+local AN3 = Instance.new("TextButton")
+local CO3 = Instance.new("Frame")
+local AN4 = Instance.new("TextButton")
+local CO4 = Instance.new("Frame")
+local AN5 = Instance.new("TextButton")
+local CO5 = Instance.new("Frame")
+local AN6 = Instance.new("TextButton")
+local COS6 = Instance.new("Frame")
+local SS1 = Instance.new("UIStroke")
+local SS2 = Instance.new("UIStroke")
+local SS3 = Instance.new("UIStroke")
+local SS4 = Instance.new("UIStroke")
+local SS5 = Instance.new("UIStroke")
+local SS6 = Instance.new("UIStroke")
+
+-- Heres the gui,frame,label,uistroke,buttons name
+
+KGui.Name = "KGui"
+KGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+KGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+M2.Name = "M2"
+M2.Parent = KGui
+M2.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+M2.BackgroundTransparency = 0.30000001192092896
+M2.BorderColor3 = Color3.new(0, 0, 0)
+M2.BorderSizePixel = 0
+M2.Position = UDim2.new(0.235714287, 0, 0.15994437, 0)
+M2.Size = UDim2.new(0, 620, 0, 390)
+
+L1.Name = "L1"
+L1.Parent = M2
+L1.BackgroundColor3 = Color3.new(0.137255, 0.639216, 0.741176)
+L1.BackgroundTransparency = 1
+L1.BorderColor3 = Color3.new(0, 0, 0)
+L1.BorderSizePixel = 0
+L1.Size = UDim2.new(0, 620, 0, 50)
+L1.Font = Enum.Font.SourceSans
+L1.Text = "Made by JxsttCxne (Chris) Version. 1"
+L1.TextColor3 = Color3.new(0.666667, 0.666667, 0.666667)
+L1.TextScaled = true
+L1.TextSize = 14
+L1.TextWrapped = true
+
+C1.Name = "C1"
+C1.Parent = M2
+C1.BackgroundColor3 = Color3.new(0.67451, 0.67451, 0.67451)
+C1.BorderColor3 = Color3.new(0, 0, 0)
+C1.BorderSizePixel = 0
+C1.Position = UDim2.new(0, 0, 0.128205135, 0)
+C1.Size = UDim2.new(0, 620, 0, 3)
+
+AN1.Name = "AN1"
+AN1.Parent = M2
+AN1.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AN1.BackgroundTransparency = 0.10000000149011612
+AN1.BorderColor3 = Color3.new(0, 0, 0)
+AN1.BorderSizePixel = 0
+AN1.Position = UDim2.new(0.0133333271, 0, 0.158974364, 0)
+AN1.Size = UDim2.new(0, 142, 0, 35)
+AN1.Font = Enum.Font.SourceSans
+AN1.Text = "Antifling"
+AN1.TextColor3 = Color3.new(1, 1, 1)
+AN1.TextScaled = true
+AN1.TextSize = 14
+AN1.TextWrapped = true
+
+SS1.Name = "S1"
+SS1.Parent = AN1
+SS1.Thickness = 3
+SS1.Color = Color3.fromRGB(54, 54, 54)
+
+CO1.Name = "CO1"
+CO1.Parent = AN1
+CO1.BackgroundColor3 = Color3.new(0.623529, 0, 0)
+CO1.BorderColor3 = Color3.new(0, 0, 0)
+CO1.BorderSizePixel = 0
+CO1.Position = UDim2.new(0, 0, 1, 0)
+CO1.Size = UDim2.new(0, 142, 0, 1)
+
+AN2.Name = "AN2"
+AN2.Parent = M2
+AN2.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AN2.BackgroundTransparency = 0.10000000149011612
+AN2.BorderColor3 = Color3.new(0, 0, 0)
+AN2.BorderSizePixel = 0
+AN2.Position = UDim2.new(0.258870959, 0, 0.158974364, 0)
+AN2.Size = UDim2.new(0, 142, 0, 35)
+AN2.Font = Enum.Font.SourceSans
+AN2.Text = "AntiRagdoll"
+AN2.TextColor3 = Color3.new(1, 1, 1)
+AN2.TextScaled = true
+AN2.TextSize = 14
+AN2.TextWrapped = true
+
+SS2.Name = "S2"
+SS2.Parent = AN2
+SS2.Thickness = 3
+SS2.Color = Color3.fromRGB(54, 54, 54)
+
+CO2.Name = "CO2"
+CO2.Parent = AN2
+CO2.BackgroundColor3 = Color3.new(0.623529, 0, 0)
+CO2.BorderColor3 = Color3.new(0, 0, 0)
+CO2.BorderSizePixel = 0
+CO2.Position = UDim2.new(0, 0, 1, 0)
+CO2.Size = UDim2.new(0, 142, 0, 1)
+
+AN3.Name = "AN3"
+AN3.Parent = M2
+AN3.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AN3.BackgroundTransparency = 0.10000000149011612
+AN3.BorderColor3 = Color3.new(0, 0, 0)
+AN3.BorderSizePixel = 0
+AN3.Position = UDim2.new(0.510914087, 0, 0.158974364, 0)
+AN3.Size = UDim2.new(0, 142, 0, 35)
+AN3.Font = Enum.Font.SourceSans
+AN3.Text = "NoDallDamage"
+AN3.TextColor3 = Color3.new(1, 1, 1)
+AN3.TextScaled = true
+AN3.TextSize = 14
+AN3.TextWrapped = true
+
+SS3.Name = "S3"
+SS3.Parent = AN3
+SS3.Thickness = 3
+SS3.Color = Color3.fromRGB(54, 54, 54)
+
+CO3.Name = "CO3"
+CO3.Parent = AN3
+CO3.BackgroundColor3 = Color3.new(0.623529, 0, 0)
+CO3.BorderColor3 = Color3.new(0, 0, 0)
+CO3.BorderSizePixel = 0
+CO3.Position = UDim2.new(0, 0, 1, 0)
+CO3.Size = UDim2.new(0, 142, 0, 1)
+
+AN4.Name = "AN4"
+AN4.Parent = M2
+AN4.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AN4.BackgroundTransparency = 0.10000000149011612
+AN4.BorderColor3 = Color3.new(0, 0, 0)
+AN4.BorderSizePixel = 0
+AN4.Position = UDim2.new(0.752957046, 0, 0.158974364, 0)
+AN4.Size = UDim2.new(0, 142, 0, 35)
+AN4.Font = Enum.Font.SourceSans
+AN4.Text = "AntiSpinner"
+AN4.TextColor3 = Color3.new(1, 1, 1)
+AN4.TextScaled = true
+AN4.TextSize = 14
+AN4.TextWrapped = true
+
+SS4.Name = "S4"
+SS3.Parent = AN4
+SS3.Thickness = 3
+SS3.Color = Color3.fromRGB(54, 54, 54)
+
+CO4.Name = "CO4"
+CO4.Parent = AN4
+CO4.BackgroundColor3 = Color3.new(0.623529, 0, 0)
+CO4.BorderColor3 = Color3.new(0, 0, 0)
+CO4.BorderSizePixel = 0
+CO4.Position = UDim2.new(0, 0, 1, 0)
+CO4.Size = UDim2.new(0, 142, 0, 1)
+
+AN5.Name = "AN5"
+AN5.Parent = M2
+AN5.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AN5.BackgroundTransparency = 0.10000000149011612
+AN5.BorderColor3 = Color3.new(0, 0, 0)
+AN5.BorderSizePixel = 0
+AN5.Position = UDim2.new(0.0126344739, 0, 0.271794885, 0)
+AN5.Size = UDim2.new(0, 142, 0, 35)
+AN5.Font = Enum.Font.SourceSans
+AN5.Text = "AntiRespawn"
+AN5.TextColor3 = Color3.new(1, 1, 1)
+AN5.TextScaled = true
+AN5.TextSize = 14
+AN5.TextWrapped = true
+
+SS5.Name = "S5"
+SS5.Parent = AN5
+SS5.Thickness = 3
+SS5.Color = Color3.fromRGB(54, 54, 54)
+
+CO5.Name = "CO5"
+CO5.Parent = AN5
+CO5.BackgroundColor3 = Color3.new(0.623529, 0, 0)
+CO5.BorderColor3 = Color3.new(0, 0, 0)
+CO5.BorderSizePixel = 0
+CO5.Position = UDim2.new(0, 0, 1, 0)
+CO5.Size = UDim2.new(0, 142, 0, 1)
+
+AN6.Name = "AN6"
+AN6.Parent = M2
+AN6.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AN6.BackgroundTransparency = 0.10000000149011612
+AN6.BorderColor3 = Color3.new(0, 0, 0)
+AN6.BorderSizePixel = 0
+AN6.Position = UDim2.new(0.257795751, 0, 0.271794885, 0)
+AN6.Size = UDim2.new(0, 142, 0, 35)
+AN6.Font = Enum.Font.SourceSans
+AN6.Text = "SpeedHack"
+AN6.TextColor3 = Color3.new(1, 1, 1)
+AN6.TextScaled = true
+AN6.TextSize = 14
+AN6.TextWrapped = true
+
+SS6.Name = "S6"
+SS6.Parent = AN6
+SS6.Thickness = 3
+SS6.Color = Color3.fromRGB(54, 54, 54)
+
+COS6.Name = "COS6"
+COS6.Parent = AN6
+COS6.BackgroundColor3 = Color3.new(0.623529, 0, 0)
+COS6.BorderColor3 = Color3.new(0, 0, 0)
+COS6.BorderSizePixel = 0
+COS6.Position = UDim2.new(0, 0, 1, 0)
+COS6.Size = UDim2.new(0, 142, 0, 1)
+
+
+local function CSAIF_fake_script() -- chris dont change here smt its to minimimze gui
+	local script = Instance.new('Script', L1)
+	local m = false
+	local p = script.Parent.Parent
+	local t = {}
+
+	for _, c in ipairs(p:GetChildren()) do
+		if c ~= script.Parent and c:IsA("GuiObject") then
+			table.insert(t, c)
 		end
-		local function SelectToolGui(except,reset,NewTool)
-			for i,v in pairs(frame:GetChildren())do
-				if v:IsA("ImageButton") then
-					v:FindFirstChild("Selected").Visible = false
-					v.Transparency = unequippedTrnasparency
-				end
-			end
-	
-			for i,v in pairs(ScrollFrame:GetChildren())do
-				if v:IsA("ImageButton")then
-					v:FindFirstChild("Selected").Visible = false
-				end
-			end
-	
-			if reset then
-				CurrentSlotEquipped = ""
-			else
-				if CurrentSlotEquipped ~= except then
-					if except <= 9 then
-						CurrentSlotEquipped = except
-						script.Select:Play()
-						local selectedPart = frame:FindFirstChild(tostring(except))
-						selectedPart:FindFirstChild("Selected").Visible = true
-						selectedPart.Transparency = equippedTransparency
-					else
-						CurrentSlotEquipped = except
-						script.Select:Play()
-						local selectedPart = ScrollFrame:WaitForChild(tostring(except))
-						selectedPart:FindFirstChild("Selected").Visible = true
-					end
-				elseif CurrentSlotEquipped == except then
-					CurrentSlotEquipped = ""
-				end
-			end
-			if  NewTool ==  nil then
-				local ToolForEquipping = OwnedTools[CurrentSlotEquipped]
-				script.Toolbar:FireServer(CurrentSlotEquipped,ToolForEquipping)
-			end
-		end
-	
-		local function ToolAdded(child,parent)
-			if child:IsA("Tool") and table.find(OwnedTools,child) ==  nil then
-	
-				if table.find(OwnedTools,"")then
-					local emptySpot = table.find(OwnedTools,"")
-					table.remove(OwnedTools,emptySpot)
-					table.insert(OwnedTools,emptySpot,child)
-					if parent == char then
-						SelectToolGui(emptySpot,nil,true)
-					end
-				else
-					table.insert(OwnedTools,#OwnedTools+1,child)
-					if parent == char then
-						SelectToolGui(#OwnedTools,nil,true)
-					end
-				end
-			end
-		end
-	
-		local function CheckForTools()
-			for i,v in pairs(bp:GetChildren())do
-				ToolAdded(v,bp)
-			end
-	
-			for i,v in pairs(char:GetChildren())do
-				ToolAdded(v,char)
-			end
-		end
-	
-		local function ToolParentChanged()
-			for i,v in pairs(OwnedTools)do
-				if v ~= "" then
-					if v.Parent ~= char and v.Parent ~= bp then
-						table.remove(OwnedTools,i)
-						if ScrollFrame:FindFirstChild(tostring(i))then
-							ScrollFrame:FindFirstChild(tostring(i)):Destroy()
-						end
-						table.insert(OwnedTools,i,"")
-					end
-				end
-			end
-		end
-	
-		for i,v in pairs(frame:GetChildren())do
-			if v:IsA("ImageButton") then
-				if v.Item.Value ~= nil then
-					v.ToolName.Text = tostring(v.Item.Value)
-				else
-					v.ToolName.Text = ""
-				end
-			end
-		end
-		CheckForTools()
-	
-		for i,v in pairs(frame:GetChildren())do
-			if v:IsA("ImageButton") then
-				v.Item.Changed:Connect(function()
-					if v.Item.Value ~= nil then
-						v.ToolName.Text = tostring(v.Item.Value)
-					else
-						v.ToolName.Text = ""
-					end
-				end)
-				v.MouseButton1Down:Connect(function()
-					if v.Item.Value ~= nil then
-						if inventory.Visible ==  false then
-							SelectToolGui(tonumber(v.Name))
-						end
-					end
-				end)
-			end
-		end
-	
-		uis.InputBegan:Connect(function(Input,GP)
-			if (GP) then return end
-			if(Input.KeyCode == Enum.KeyCode.One) and frame["1"].Item.Value ~= nil then
-				SelectToolGui(1)
-			elseif(Input.KeyCode == Enum.KeyCode.Two) and frame["2"].Item.Value ~= nil then
-				SelectToolGui(2)
-			elseif(Input.KeyCode == Enum.KeyCode.Three) and frame["3"].Item.Value ~= nil then
-				SelectToolGui(3)
-			elseif(Input.KeyCode == Enum.KeyCode.Four) and frame["4"].Item.Value ~= nil then	
-				SelectToolGui(4)
-			elseif(Input.KeyCode == Enum.KeyCode.Five) and frame["5"].Item.Value ~= nil then
-				SelectToolGui(5)
-			elseif(Input.KeyCode == Enum.KeyCode.Six) and frame["6"].Item.Value ~= nil then
-				SelectToolGui(6)
-			elseif(Input.KeyCode == Enum.KeyCode.Seven) and frame["7"].Item.Value ~= nil then
-				SelectToolGui(7)
-			elseif(Input.KeyCode == Enum.KeyCode.Eight) and frame["8"].Item.Value ~= nil then
-				SelectToolGui(8)
-			elseif(Input.KeyCode == Enum.KeyCode.Nine) and frame["9"].Item.Value ~= nil then
-				SelectToolGui(9)
-			elseif (Input.KeyCode == Enum.KeyCode.Backquote) then
-	
-				inventory.Visible = not inventory.Visible
-	
-				if inventory.Visible ==  true then
-					script.Open:Play()
-				end
-			elseif (Input.KeyCode == Enum.KeyCode.Backspace) then
-				SelectToolGui(1,"true")
-			end
-		end)
-	
-		char.ChildAdded:Connect(function(child)
-			ToolAdded(child,char)
-		end)
-	
-		bp.ChildAdded:Connect(function(child)
-			ToolAdded(child,bp)
-		end)
-	
-	
-		local function upDateToolBar()
-			for i,v in pairs(OwnedTools)do
-				for a,b in pairs(frame:GetChildren())do
-					if b.Name == tostring(i) then
-						if v ~= "" then
-							b.Item.Value = v
-							b.ToolName.Text = v.Name
-						else
-							b.ToolName.Text = ""
-							b.Item.Value = nil
-						end
-					end
-				end
-			end
-		end
-	
-	
-		local function CreateButtonForTool(i,v)
-			local template =   inventory.ImageLabel.ScrollingFrame.Template
-	
-			local NewButton =  template:Clone()
-			NewButton.Parent = template.Parent
-			NewButton.Visible =  true
-			NewButton.ToolName.Text = tostring(v.Name)
-			NewButton.Name = tostring(i) 
-			
-			
-	
-			NewButton.MouseButton2Click:Connect(function()
-				if table.find(OwnedTools,"")then
-					local NewEmptySpot = table.find(OwnedTools,"")
-	
-					if NewEmptySpot < 10 then
-						script.Switch:Play()
-						table.remove(OwnedTools,NewEmptySpot)
-						table.insert(OwnedTools,NewEmptySpot,v)
-						table.remove(OwnedTools,i)
-						table.insert(OwnedTools,i,"")
-						NewButton:Destroy()
-					end
-				end
-			end)
-	
-	
-			local gui =  NewButton	
-	
-			gui.InputBegan:Connect(function(input)
-				if input.UserInputType == Enum.UserInputType.MouseButton1 and inventory.Visible == true and ItemDragged == nil and Dragging == false  then
-					Dragging =  true
-					gui.Visible = false
-	
-					ItemDragged = tonumber(gui.Name)
-					MouseGui.Number.Text = ""
-					MouseGui.ToolName.Text = gui.ToolName.Text
-					MouseGui.Visible = true
-				end
-			end)		
-			gui.InputEnded:Connect(function(input)
-				if input.UserInputType == Enum.UserInputType.MouseButton1 and Dragging == true and ItemDragged == tonumber(gui.Name) then
-					Dragging =  false
-					gui.Visible = true
-					gui:FindFirstChild("Selected").Visible =  false
-					gui.Transparency = unequippedTrnasparency
-					MouseGui.Visible = false
-	
-					if PasteItem ~= nil then
-	
-						if PasteItem ~= inventory then
-							local PasteItemIndex = tonumber(PasteItem.Name)
-							table.insert(OwnedTools,PasteItemIndex,OwnedTools[ItemDragged])
-							table.remove(OwnedTools,ItemDragged+1)
-							table.insert(OwnedTools,ItemDragged+1,OwnedTools[PasteItemIndex+1])
-							table.remove(OwnedTools,PasteItemIndex+1)
-							gui:Destroy()
-						end
-					end
-	
-					ItemDragged = nil
-				end
-			end)
-		end
-	
-	
-		inventory.MouseEnter:Connect(function()
-			PasteItem = inventory
-		end)
-	
-		inventory.MouseLeave:Connect(function()
-			PasteItem = nil
-		end)
-	
-		for i,gui in pairs(frame:GetChildren()) do
-			if gui:IsA("ImageButton")then
-	
-				gui.MouseEnter:Connect(function()
-					PasteItem = gui
-				end)
-				gui.MouseLeave:Connect(function()
-					if PasteItem == gui then
-						PasteItem = nil
-					end
-				end)
-				
-				gui.MouseButton2Click:Connect(function()
-					if gui.Item.Value ~= nil and inventory.Visible == true then
-						local guiPlace = tonumber(gui.Name)
-						
-						if OwnedTools[10] == ""then
-							table.remove(OwnedTools,10)
-							table.insert(OwnedTools,10,OwnedTools[guiPlace])
-							
-							if CurrentSlotEquipped == tonumber(gui.Name) then
-								SelectToolGui(true,true)
-							end
-	
-	
-						elseif OwnedTools[10] ~= "" then
-							local Once =  false
-							for i,v in pairs(OwnedTools)do
-								if i > 10 and Once == false then
-									if v == "" then
-										Once = true
-										table.remove(OwnedTools,i)
-										table.insert(OwnedTools,i,OwnedTools[guiPlace])	
-										if CurrentSlotEquipped == tonumber(gui.Name) then
-											SelectToolGui(true,true)
-										end
-	
-										break
-									end
-	
-								end
-							end
-	
-							if Once == false then
-								table.insert(OwnedTools,#OwnedTools+1,OwnedTools[guiPlace])
-							end
-						end
-						table.remove(OwnedTools,guiPlace)
-						table.insert(OwnedTools,guiPlace,"")
-					end
-				end)
-	
-				gui.InputBegan:Connect(function(input)
-					if input.UserInputType == Enum.UserInputType.MouseButton1 and inventory.Visible == true and ItemDragged == nil and Dragging == false and gui.Item.Value ~= nil then
-						Dragging =  true
-						gui.Visible = false
-	
-						ItemDragged = tonumber(gui.Name)
-						MouseGui.Number.Text = gui.Number.Text
-						MouseGui.ToolName.Text = gui.ToolName.Text
-						MouseGui.Visible = true
-					end
-				end)		
-				gui.InputEnded:Connect(function(input)
-					if input.UserInputType == Enum.UserInputType.MouseButton1 and Dragging == true and ItemDragged == tonumber(gui.Name) then
-						Dragging =  false
-						gui.Visible = true
-						gui:FindFirstChild("Selected").Visible =  false
-						gui.Transparency = unequippedTrnasparency
-						MouseGui.Visible = false
-	
-						if PasteItem ~= nil then
-							if PasteItem == inventory then
-								if OwnedTools[10] == ""then
-									table.remove(OwnedTools,10)
-									table.insert(OwnedTools,10,OwnedTools[ItemDragged])
-									
-									if CurrentSlotEquipped == tonumber(gui.Name) then
-										SelectToolGui(true,true)
-									end
-	
-								elseif OwnedTools[10] ~= "" then
-									local Once =  false
-									for i,v in pairs(OwnedTools)do
-										if i > 10 and Once == false then
-											if v == "" then
-												Once = true
-												table.remove(OwnedTools,i)
-												table.insert(OwnedTools,i,OwnedTools[ItemDragged])
-												if CurrentSlotEquipped == tonumber(gui.Name) then
-													SelectToolGui(true,true)
-												end
-												break
-											end
-	
-										end
-									end
-	
-									if Once == false then
-										table.insert(OwnedTools,#OwnedTools+1,OwnedTools[ItemDragged])
-									end
-								end
-								table.remove(OwnedTools,ItemDragged)
-								table.insert(OwnedTools,ItemDragged,"")
-							else
-								local PasteItemIndex = tonumber(PasteItem.Name)
-	
-								if ItemDragged < PasteItemIndex then
-									table.insert(OwnedTools,PasteItemIndex,OwnedTools[ItemDragged])
-									table.remove(OwnedTools,ItemDragged)
-									table.insert(OwnedTools,ItemDragged,OwnedTools[PasteItemIndex])
-									table.remove(OwnedTools,PasteItemIndex+1)
-									if CurrentSlotEquipped == ItemDragged then
-										SelectToolGui(PasteItemIndex,nil,true)
-									end
-	
-								else
-									table.insert(OwnedTools,PasteItemIndex,OwnedTools[ItemDragged])
-									table.remove(OwnedTools,ItemDragged+1)
-									table.insert(OwnedTools,ItemDragged+1,OwnedTools[PasteItemIndex+1])
-									table.remove(OwnedTools,PasteItemIndex+1)
-									if CurrentSlotEquipped == ItemDragged then
-										SelectToolGui(PasteItemIndex,nil,true)
-									end
-	
-	
-								end
-	
-							end
-						end
-	
-						ItemDragged = nil
-					end
-				end)
-			end
-		end
-	
-	
-		local function DragGui()		
-			script.Parent.Template.Position = UDim2.new(0,mouse.X - 10,0,mouse.Y + 30)
-		end
-	
-		local function upDateInventory()
-			for i,v in pairs(OwnedTools)do
-				if  ScrollFrame:FindFirstChild(tostring(i)) ==  nil then
-					if i>9 and v ~= "" then
-						CreateButtonForTool(i,v)
-					end
-				else
-					if v ~= ""then
-						ScrollFrame:FindFirstChild(tostring(i)).ToolName.Text = v.Name
-					else
-						ScrollFrame:FindFirstChild(tostring(i)).ToolName.Text = ""
-					end
-				end
-			end
-		end
-		game:GetService('RunService').Heartbeat:Connect(function()
-			DragGui()
-			ToolParentChanged()
-			upDateToolBar()
-			upDateInventory()
-	
-		end)
-	
 	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		m = not m
+		for _, c in ipairs(t) do
+			c.Visible = not m
+		end
+	end)
+
+	local uis = game:GetService("UserInputService")
+	local d, i, mp, fp
+
+	script.Parent.InputBegan:Connect(function(inp)
+		if inp.UserInputType == Enum.UserInputType.MouseButton1 then
+			d = true
+			mp = inp.Position
+			fp = p.Position
+			inp.Changed:Connect(function()
+				if inp.UserInputState == Enum.UserInputState.End then
+					d = false
+				end
+			end)
+		end
+	end)
+
+	script.Parent.InputChanged:Connect(function(inp)
+		if inp.UserInputType == Enum.UserInputType.MouseMovement then
+			i = inp
+		end
+	end)
+
+	uis.InputChanged:Connect(function(inp)
+		if inp == i and d then
+			local dx = inp.Position - mp
+			p.Position = UDim2.new(fp.X.Scale, fp.X.Offset + dx.X, fp.Y.Scale, fp.Y.Offset + dx.Y)
+		end
+	end)
 	
 end
-coroutine.wrap(YATOPAP_fake_script)()
+coroutine.wrap(CSAIF_fake_script)()
+local function OVPZ_fake_script() -- Here is the Antifling script
+	local script = Instance.new('Script', AN1)
+
+	local t = false
+	AN1.MouseButton1Click:Connect(function()
+		t = not t
+		if t then
+			CO1.BackgroundColor3 = Color3.fromRGB(26, 159, 35)
+			-- put here the script
+		else
+			-- chris make here something like when u turn the button off it cloes the script
+			CO1.BackgroundColor3 = Color3.fromRGB(159, 0, 0)
+		end
+	end)
+end
+coroutine.wrap(OVPZ_fake_script)()
+local function DWKEDBP_fake_script() -- Here is the antiragdoll script
+	local script = Instance.new('Script', AN2)
+
+	local t1 = false
+	AN2.MouseButton1Click:Connect(function()
+		t1 = not t1
+		if t1 then
+			CO2.BackgroundColor3 = Color3.fromRGB(26, 159, 35)
+			-- put here the script
+		else
+			-- chris make here something like when u turn the button off it cloes the script
+			CO2.BackgroundColor3 = Color3.fromRGB(159, 0, 0)
+		end
+	end)
+end
+coroutine.wrap(DWKEDBP_fake_script)()
+local function MOYFM_fake_script() -- thats the NoFallDamage
+	local script = Instance.new('Script', AN3)
+
+	local t2 = false
+	AN3.MouseButton1Click:Connect(function()
+		t2 = not t2
+		if t2 then
+			CO3.BackgroundColor3 = Color3.fromRGB(26, 159, 35)
+			-- put here script
+		else
+			-- - chris make here something like when u turn the button off it cloes the script
+			CO3.BackgroundColor3 = Color3.fromRGB(159, 0, 0)
+		end
+	end)
+end
+coroutine.wrap(MOYFM_fake_script)()
+local function NTJVZ_fake_script() -- Thats the AntiSpinner
+	local script = Instance.new('Script', AN4)
+
+	local t3 = false
+	AN4.MouseButton1Click:Connect(function()
+		t3 = not t3
+		if t3 then
+			CO4.BackgroundColor3 = Color3.fromRGB(26, 159, 35)
+			-- put here the script 
+		else
+			-- - chris make here something like when u turn the button off it cloes the script
+			CO4.BackgroundColor3 = Color3.fromRGB(159, 0, 0)
+		end
+	end)
+end
+coroutine.wrap(NTJVZ_fake_script)()
+local function HHYNAK_fake_script() --Thats the AutoRespawn
+	local script = Instance.new('Script', AN5)
+
+	local t4 = false
+	AN5.MouseButton1Click:Connect(function()
+		t4 = not t4
+		if t4 then
+			CO5.BackgroundColor3 = Color3.fromRGB(26, 159, 35)
+			-- put here the script
+		else
+			CO5.BackgroundColor3 = Color3.fromRGB(159, 0, 0)
+			-- - chris make here something like when u turn the button off it cloes the script
+		end
+	end)
+end
+coroutine.wrap(HHYNAK_fake_script)()
+local function MAXI_fake_script() -- Thats the speedhack
+	local script = Instance.new('Script', AN6)
+
+	local t5 = false
+	AN6.MouseButton1Click:Connect(function()
+		t5 = not t5
+		if t5 then
+			CO6.BackgroundColor3 = Color3.fromRGB(26, 159, 35)
+			-- put here the script
+		else
+			CO6.BackgroundColor3 = Color3.fromRGB(159, 0, 0)
+			-- - chris make here something like when u turn the button off it cloes the script
+		end
+	end)
+end
+coroutine.wrap(MAXI_fake_script)()
