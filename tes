@@ -442,12 +442,12 @@ B1.TextScaled = true
 B1.TextSize = 50
 B1.TextWrapped = true
 
-local B1 = Instance.new("UIStroke")
-B1.Name = "B1"
-B1.Parent = B1
-B1.Thickness = 3
-B1.Color = Color3.fromRGB(54, 54, 54)
-B1.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+local BS1 = Instance.new("UIStroke")
+BS1.Name = "B1"
+BS1.Parent = B1
+BS1.Thickness = 3
+BS1.Color = Color3.fromRGB(54, 54, 54)
+BS1.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 
 B2.Name = "B2"
 B2.Parent = KGui
@@ -464,12 +464,12 @@ B2.TextScaled = true
 B2.TextSize = 50
 B2.TextWrapped = true
 
-local B2 = Instance.new("UIStroke")
-B2.Name = "B2"
-B2.Parent = B2
-B2.Thickness = 3
-B2.Color = Color3.fromRGB(54, 54, 54)
-B2.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+local BS2 = Instance.new("UIStroke")
+BS2.Name = "SB2"
+BS2.Parent = B2
+BS2.Thickness = 3
+BS2.Color = Color3.fromRGB(54, 54, 54)
+BS2.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 
 B3.Name = "B3"
 B3.Parent = KGui
@@ -486,12 +486,12 @@ B3.TextScaled = true
 B3.TextSize = 50
 B3.TextWrapped = true
 
-local B3 = Instance.new("UIStroke")
-B3.Name = "B3"
-B3.Parent = B3
-B3.Thickness = 3
-B3.Color = Color3.fromRGB(54, 54, 54)
-B3.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+local BS3 = Instance.new("UIStroke")
+BS3.Name = "B3"
+BS3.Parent = B3
+BS3.Thickness = 3
+BS3.Color = Color3.fromRGB(54, 54, 54)
+BS3.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 
 B4.Name = "B4"
 B4.Parent = KGui
@@ -508,12 +508,12 @@ B4.TextScaled = true
 B4.TextSize = 50
 B4.TextWrapped = true
 
-local B4 = Instance.new("UIStroke")
-B4.Name = "B4"
-B4.Parent = B4
-B4.Thickness = 3
-B4.Color = Color3.fromRGB(54, 54, 54)
-B4.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+local BS4 = Instance.new("UIStroke")
+BS4.Name = "B4"
+BS4.Parent = B4
+BS4.Thickness = 3
+BS4.Color = Color3.fromRGB(54, 54, 54)
+BS4.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 
 B5.Name = "B5"
 B5.Parent = KGui
@@ -530,9 +530,9 @@ B5.TextScaled = true
 B5.TextSize = 50
 B5.TextWrapped = true
 
-local B5 = Instance.new("UIStroke")
+local BS5 = Instance.new("UIStroke")
 B5.Name = "B6"
-B5.Parent = B5
+B5.Parent = BS5
 B5.Thickness = 3
 B5.Color = Color3.fromRGB(54, 54, 54)
 B5.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
@@ -581,12 +581,12 @@ B6.TextScaled = true
 B6.TextSize = 50
 B6.TextWrapped = true
 
-local B6 = Instance.new("UIStroke")
-B6.Name = "B6"
-B6.Parent = B6
-B6.Thickness = 3
-B6.Color = Color3.fromRGB(54, 54, 54)
-B6.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+local BS6 = Instance.new("UIStroke")
+BS6.Name = "B6"
+BS6.Parent = B6
+BS6.Thickness = 3
+BS6.Color = Color3.fromRGB(54, 54, 54)
+BS6.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 
 local function YZHLIJ_fake_script() -- Antifling
 	local script = Instance.new('Script', AN1)
