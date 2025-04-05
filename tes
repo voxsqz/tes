@@ -1,1 +1,812 @@
-1
+
+
+local KGui = Instance.new("ScreenGui")
+local M2 = Instance.new("Frame")
+local L1 = Instance.new("TextLabel")
+local AN1 = Instance.new("TextButton")
+local CO1 = Instance.new("Frame")
+local AN2 = Instance.new("TextButton")
+local CO2 = Instance.new("Frame")
+local AN3 = Instance.new("TextButton")
+local CO3 = Instance.new("Frame")
+local AN4 = Instance.new("TextButton")
+local CO4 = Instance.new("Frame")
+local AN5 = Instance.new("TextButton")
+local CO5 = Instance.new("Frame")
+local AN6 = Instance.new("TextButton")
+local CO6 = Instance.new("Frame")
+local AN7 = Instance.new("TextButton")
+local CO7 = Instance.new("Frame")
+local AN8 = Instance.new("TextButton")
+local CO8 = Instance.new("Frame")
+local AN9 = Instance.new("TextButton")
+local CO9 = Instance.new("Frame")
+local AN01 = Instance.new("TextButton")
+local AN11 = Instance.new("TextButton")
+local CO11 = Instance.new("Frame")
+local AN12 = Instance.new("TextButton")
+local CO12 = Instance.new("Frame")
+local AN09 = Instance.new("TextButton")
+local B1 = Instance.new("TextBox")
+local B2 = Instance.new("TextBox")
+local B3 = Instance.new("TextBox")
+local B4 = Instance.new("TextBox")
+local B5 = Instance.new("TextBox")
+local AN10 = Instance.new("TextButton")
+local CO10 = Instance.new("Frame")
+local B6 = Instance.new("TextBox")
+local SS1 = Instance.new("UIStroke")
+local SS2 = Instance.new("UIStroke")
+local SS3 = Instance.new("UIStroke")
+local SS4 = Instance.new("UIStroke")
+local SS5 = Instance.new("UIStroke")
+local SS6 = Instance.new("UIStroke")
+local SS7 = Instance.new("UIStroke")
+local SS8 = Instance.new("UIStroke")
+local SS9 = Instance.new("UIStroke")
+local SS10 = Instance.new("UIStroke")
+local SS11 = Instance.new("UIStroke")
+local SS12 = Instance.new("UIStroke")
+
+
+
+KGui.Name = "KGui"
+KGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+KGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+M2.Name = "M2"
+M2.Parent = KGui
+M2.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+M2.BackgroundTransparency = 0.30000001192092896
+M2.BorderColor3 = Color3.new(0, 0, 0)
+M2.BorderSizePixel = 0
+M2.Position = UDim2.new(0.235714287, 0, 0.15994437, 0)
+M2.Size = UDim2.new(0, 620, 0, 390)
+
+L1.Name = "L1"
+L1.Parent = M2
+L1.BackgroundColor3 = Color3.new(0, 0, 0)
+L1.BorderColor3 = Color3.new(0, 0, 0)
+L1.BorderSizePixel = 0
+L1.Size = UDim2.new(0, 620, 0, 37)
+L1.Font = Enum.Font.SourceSans
+L1.LineHeight = 3
+L1.Text = "Made by JxsttCxne/EfdoRB (Chris/Vox) Version: 1.1"
+L1.TextColor3 = Color3.new(0.847059, 0.847059, 0.847059)
+L1.TextScaled = true
+L1.TextSize = 29
+L1.TextWrapped = true
+L1.TextXAlignment = Enum.TextXAlignment.Left
+
+AN1.Name = "AN1"
+AN1.Parent = M2
+AN1.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AN1.BackgroundTransparency = 0.10000000149011612
+AN1.BorderColor3 = Color3.new(0, 0, 0)
+AN1.BorderSizePixel = 0
+AN1.Position = UDim2.new(0.0165591333, 0, 0.141025648, 0)
+AN1.Size = UDim2.new(0, 142, 0, 35)
+AN1.Font = Enum.Font.SourceSans
+AN1.Text = "Antifling"
+AN1.TextColor3 = Color3.new(1, 1, 1)
+AN1.TextScaled = true
+AN1.TextSize = 14
+AN1.TextWrapped = true
+
+SS1.Name = "S1"
+SS1.Parent = AN1
+SS1.Thickness = 3
+SS1.Color = Color3.fromRGB(54, 54, 54)
+SS1.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+CO1.Name = "CO1"
+CO1.Parent = AN1
+CO1.BackgroundColor3 = Color3.new(0.623529, 0, 0)
+CO1.BorderColor3 = Color3.new(0, 0, 0)
+CO1.BorderSizePixel = 0
+CO1.Position = UDim2.new(0, 0, 1, 0)
+CO1.Size = UDim2.new(0, 142, 0, 1)
+
+AN2.Name = "AN2"
+AN2.Parent = M2
+AN2.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AN2.BackgroundTransparency = 0.10000000149011612
+AN2.BorderColor3 = Color3.new(0, 0, 0)
+AN2.BorderSizePixel = 0
+AN2.Position = UDim2.new(0.262096763, 0, 0.141025648, 0)
+AN2.Size = UDim2.new(0, 142, 0, 35)
+AN2.Font = Enum.Font.SourceSans
+AN2.Text = "AntiRagdoll"
+AN2.TextColor3 = Color3.new(1, 1, 1)
+AN2.TextScaled = true
+AN2.TextSize = 14
+AN2.TextWrapped = true
+
+SS2.Name = "S2"
+SS2.Parent = AN2
+SS2.Thickness = 3
+SS2.Color = Color3.fromRGB(54, 54, 54)
+SS2.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+CO2.Name = "CO2"
+CO2.Parent = AN2
+CO2.BackgroundColor3 = Color3.new(0.623529, 0, 0)
+CO2.BorderColor3 = Color3.new(0, 0, 0)
+CO2.BorderSizePixel = 0
+CO2.Position = UDim2.new(0, 0, 1, 0)
+CO2.Size = UDim2.new(0, 142, 0, 1)
+
+AN3.Name = "AN3"
+AN3.Parent = M2
+AN3.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AN3.BackgroundTransparency = 0.10000000149011612
+AN3.BorderColor3 = Color3.new(0, 0, 0)
+AN3.BorderSizePixel = 0
+AN3.Position = UDim2.new(0.514139891, 0, 0.141025648, 0)
+AN3.Size = UDim2.new(0, 142, 0, 35)
+AN3.Font = Enum.Font.SourceSans
+AN3.Text = "NoDallDamage"
+AN3.TextColor3 = Color3.new(1, 1, 1)
+AN3.TextScaled = true
+AN3.TextSize = 14
+AN3.TextWrapped = true
+
+SS3.Name = "S3"
+SS3.Parent = AN3
+SS3.Thickness = 3
+SS3.Color = Color3.fromRGB(54, 54, 54)
+SS3.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+CO3.Name = "CO3"
+CO3.Parent = AN3
+CO3.BackgroundColor3 = Color3.new(0.623529, 0, 0)
+CO3.BorderColor3 = Color3.new(0, 0, 0)
+CO3.BorderSizePixel = 0
+CO3.Position = UDim2.new(0, 0, 1, 0)
+CO3.Size = UDim2.new(0, 142, 0, 1)
+
+AN4.Name = "AN4"
+AN4.Parent = M2
+AN4.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AN4.BackgroundTransparency = 0.10000000149011612
+AN4.BorderColor3 = Color3.new(0, 0, 0)
+AN4.BorderSizePixel = 0
+AN4.Position = UDim2.new(0.756182849, 0, 0.141025648, 0)
+AN4.Size = UDim2.new(0, 142, 0, 35)
+AN4.Font = Enum.Font.SourceSans
+AN4.Text = "AntiSpinner"
+AN4.TextColor3 = Color3.new(1, 1, 1)
+AN4.TextScaled = true
+AN4.TextSize = 14
+AN4.TextWrapped = true
+
+SS4.Name = "S4"
+SS4.Parent = AN4
+SS4.Thickness = 3
+SS4.Color = Color3.fromRGB(54, 54, 54)
+SS4.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+CO4.Name = "CO4"
+CO4.Parent = AN4
+CO4.BackgroundColor3 = Color3.new(0.623529, 0, 0)
+CO4.BorderColor3 = Color3.new(0, 0, 0)
+CO4.BorderSizePixel = 0
+CO4.Position = UDim2.new(0, 0, 1, 0)
+CO4.Size = UDim2.new(0, 142, 0, 1)
+
+AN5.Name = "AN5"
+AN5.Parent = M2
+AN5.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AN5.BackgroundTransparency = 0.10000000149011612
+AN5.BorderColor3 = Color3.new(0, 0, 0)
+AN5.BorderSizePixel = 0
+AN5.Position = UDim2.new(0.01586028, 0, 0.253846169, 0)
+AN5.Size = UDim2.new(0, 142, 0, 35)
+AN5.Font = Enum.Font.SourceSans
+AN5.Text = "AutoRespawn"
+AN5.TextColor3 = Color3.new(1, 1, 1)
+AN5.TextScaled = true
+AN5.TextSize = 14
+AN5.TextWrapped = true
+
+SS5 = Instance.new("UIStroke")
+SS5.Name = "S5"
+SS5.Parent = AN5
+SS5.Thickness = 3
+SS5.Color = Color3.fromRGB(54, 54, 54)
+SS5.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+CO5.Name = "CO5"
+CO5.Parent = AN5
+CO5.BackgroundColor3 = Color3.new(0.623529, 0, 0)
+CO5.BorderColor3 = Color3.new(0, 0, 0)
+CO5.BorderSizePixel = 0
+CO5.Position = UDim2.new(0, 0, 1, 0)
+CO5.Size = UDim2.new(0, 142, 0, 1)
+
+AN6.Name = "AN6"
+AN6.Parent = M2
+AN6.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AN6.BackgroundTransparency = 0.10000000149011612
+AN6.BorderColor3 = Color3.new(0, 0, 0)
+AN6.BorderSizePixel = 0
+AN6.Position = UDim2.new(0.261021584, 0, 0.253846169, 0)
+AN6.Size = UDim2.new(0, 142, 0, 35)
+AN6.Font = Enum.Font.SourceSans
+AN6.Text = "SpeedHack"
+AN6.TextColor3 = Color3.new(1, 1, 1)
+AN6.TextScaled = true
+AN6.TextSize = 14
+AN6.TextWrapped = true
+
+SS6.Name = "S6"
+SS6.Parent = AN6
+SS6.Thickness = 3
+SS6.Color = Color3.fromRGB(54, 54, 54)
+SS6.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+
+CO6.Name = "CO6"
+CO6.Parent = AN6
+CO6.BackgroundColor3 = Color3.new(0.623529, 0, 0)
+CO6.BorderColor3 = Color3.new(0, 0, 0)
+CO6.BorderSizePixel = 0
+CO6.Position = UDim2.new(0, 0, 1, 0)
+CO6.Size = UDim2.new(0, 142, 0, 1)
+
+AN7.Name = "AN7"
+AN7.Parent = M2
+AN7.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AN7.BackgroundTransparency = 0.10000000149011612
+AN7.BorderColor3 = Color3.new(0, 0, 0)
+AN7.BorderSizePixel = 0
+AN7.Position = UDim2.new(0.512634456, 0, 0.256410271, 0)
+AN7.Size = UDim2.new(0, 142, 0, 35)
+AN7.Font = Enum.Font.SourceSans
+AN7.Text = "AntiVoid"
+AN7.TextColor3 = Color3.new(1, 1, 1)
+AN7.TextScaled = true
+AN7.TextSize = 14
+AN7.TextWrapped = true
+
+SS7.Name = "S7"
+SS7.Parent = AN7
+SS7.Thickness = 3
+SS7.Color = Color3.fromRGB(54, 54, 54)
+SS7.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+CO7.Name = "CO7"
+CO7.Parent = AN7
+CO7.BackgroundColor3 = Color3.new(0.623529, 0, 0)
+CO7.BorderColor3 = Color3.new(0, 0, 0)
+CO7.BorderSizePixel = 0
+CO7.Position = UDim2.new(0.00657288451, 0, 1, 0)
+CO7.Size = UDim2.new(0, 139, 0, 2)
+
+AN8.Name = "AN8"
+AN8.Parent = M2
+AN8.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AN8.BackgroundTransparency = 0.10000000149011612
+AN8.BorderColor3 = Color3.new(0, 0, 0)
+AN8.BorderSizePixel = 0
+AN8.Position = UDim2.new(0.756182849, 0, 0.253846169, 0)
+AN8.Size = UDim2.new(0, 142, 0, 35)
+AN8.Font = Enum.Font.SourceSans
+AN8.Text = "NoRagdollCD"
+AN8.TextColor3 = Color3.new(1, 1, 1)
+AN8.TextScaled = true
+AN8.TextSize = 14
+AN8.TextWrapped = true
+
+SS8.Name = "S8"
+SS8.Parent = AN8
+SS8.Thickness = 3
+SS8.Color = Color3.fromRGB(54, 54, 54)
+SS8.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+CO8.Name = "CO8"
+CO8.Parent = AN8
+CO8.BackgroundColor3 = Color3.new(0.623529, 0, 0)
+CO8.BorderColor3 = Color3.new(0, 0, 0)
+CO8.BorderSizePixel = 0
+CO8.Position = UDim2.new(0, 0, 1, 0)
+CO8.Size = UDim2.new(0, 142, 0, 1)
+
+AN9.Name = "AN9"
+AN9.Parent = M2
+AN9.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AN9.BackgroundTransparency = 0.10000000149011612
+AN9.BorderColor3 = Color3.new(0, 0, 0)
+AN9.BorderSizePixel = 0
+AN9.Position = UDim2.new(0.01586028, 0, 0.369230777, 0)
+AN9.Size = UDim2.new(0, 142, 0, 35)
+AN9.Font = Enum.Font.SourceSans
+AN9.Text = "HiddenFling"
+AN9.TextColor3 = Color3.new(1, 1, 1)
+AN9.TextScaled = true
+AN9.TextSize = 14
+AN9.TextWrapped = true
+
+SS9.Name = "S9"
+SS9.Parent = AN9
+SS9.Thickness = 3
+SS9.Color = Color3.fromRGB(54, 54, 54)
+SS9.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+CO9.Name = "CO9"
+CO9.Parent = AN9
+CO9.BackgroundColor3 = Color3.new(0.623529, 0, 0)
+CO9.BorderColor3 = Color3.new(0, 0, 0)
+CO9.BorderSizePixel = 0
+CO9.Position = UDim2.new(0.00305132801, 0, 1, 0)
+CO9.Size = UDim2.new(0, 141, 0, 2)
+
+AN01.Name = "AN01"
+AN01.Parent = M2
+AN01.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AN01.BackgroundTransparency = 0.10000000149011612
+AN01.BorderColor3 = Color3.new(0, 0, 0)
+AN01.BorderSizePixel = 0
+AN01.Position = UDim2.new(0.261021584, 0, 0.48974359, 0)
+AN01.Size = UDim2.new(0, 142, 0, 35)
+AN01.Font = Enum.Font.SourceSans
+AN01.Text = "ClearFIing"
+AN01.TextColor3 = Color3.new(1, 1, 1)
+AN01.TextScaled = true
+AN01.TextSize = 14
+AN01.TextWrapped = true
+
+AN11.Name = "AN11"
+AN11.Parent = M2
+AN11.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AN11.BorderColor3 = Color3.new(0, 0, 0)
+AN11.BorderSizePixel = 0
+AN11.Position = UDim2.new(0.0161290318, 0, 0.605128229, 0)
+AN11.Size = UDim2.new(0, 142, 0, 35)
+AN11.Font = Enum.Font.SourceSans
+AN11.Text = "SuperPunch"
+AN11.TextColor3 = Color3.new(1, 1, 1)
+AN11.TextScaled = true
+AN11.TextSize = 14
+AN11.TextWrapped = true
+
+SS11.Name = "S11"
+SS11.Parent = AN11
+SS11.Thickness = 3
+SS11.Color = Color3.fromRGB(54, 54, 54)
+SS11.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+CO11.Name = "CO11"
+CO11.Parent = AN11
+CO11.BackgroundColor3 = Color3.new(0.623529, 0, 0)
+CO11.BorderColor3 = Color3.new(0, 0, 0)
+CO11.BorderSizePixel = 0
+CO11.Position = UDim2.new(0.00187790557, 0, 1, 0)
+CO11.Size = UDim2.new(0, 142, 0, 2)
+
+AN12.Name = "AN12"
+AN12.Parent = M2
+AN12.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AN12.BorderColor3 = Color3.new(0, 0, 0)
+AN12.BorderSizePixel = 0
+AN12.Position = UDim2.new(0.261290312, 0, 0.605128229, 0)
+AN12.Size = UDim2.new(0, 142, 0, 35)
+AN12.Font = Enum.Font.SourceSans
+AN12.Text = "Virus"
+AN12.TextColor3 = Color3.new(1, 1, 1)
+AN12.TextScaled = true
+AN12.TextSize = 14
+AN12.TextWrapped = true
+
+SS12.Name = "S12"
+SS12.Parent = AN12
+SS12.Thickness = 3
+SS12.Color = Color3.fromRGB(54, 54, 54)
+SS12.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+CO12.Name = "CO12"
+CO12.Parent = AN12
+CO12.BackgroundColor3 = Color3.new(0.623529, 0, 0)
+CO12.BorderColor3 = Color3.new(0, 0, 0)
+CO12.BorderSizePixel = 0
+CO12.Position = UDim2.new(0.00187790557, 0, 1, 0)
+CO12.Size = UDim2.new(0, 142, 0, 2)
+
+AN09.Name = "AN09"
+AN09.Parent = M2
+AN09.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AN09.BackgroundTransparency = 0.10000000149011612
+AN09.BorderColor3 = Color3.new(0, 0, 0)
+AN09.BorderSizePixel = 0
+AN09.Position = UDim2.new(0.756182849, 0, 0.610256433, 0)
+AN09.Size = UDim2.new(0, 142, 0, 35)
+AN09.Font = Enum.Font.SourceSans
+AN09.Text = "UnLoopPunch"
+AN09.TextColor3 = Color3.new(1, 1, 1)
+AN09.TextScaled = true
+AN09.TextSize = 14
+AN09.TextWrapped = true
+
+B1.Name = "B1"
+B1.Parent = KGui
+B1.BackgroundColor3 = Color3.new(0.168627, 0.168627, 0.168627)
+B1.BackgroundTransparency = 0.30000001192092896
+B1.BorderColor3 = Color3.new(0, 0, 0)
+B1.BorderSizePixel = 0
+B1.Position = UDim2.new(0.401681215, 0, 0.410292059, 0)
+B1.Size = UDim2.new(0, 142, 0, 35)
+B1.Font = Enum.Font.SourceSans
+B1.Text = "FIing"
+B1.TextColor3 = Color3.new(0.764706, 0.764706, 0.764706)
+B1.TextScaled = true
+B1.TextSize = 50
+B1.TextWrapped = true
+
+local B1 = Instance.new("UIStroke")
+B1.Name = "B6"
+B1.Parent = B1
+B1.Thickness = 3
+B1.Color = Color3.fromRGB(54, 54, 54)
+B1.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+B2.Name = "B2"
+B2.Parent = KGui
+B2.BackgroundColor3 = Color3.new(0.168627, 0.168627, 0.168627)
+B2.BackgroundTransparency = 0.30000001192092896
+B2.BorderColor3 = Color3.new(0, 0, 0)
+B2.BorderSizePixel = 0
+B2.Position = UDim2.new(0.560103118, 0, 0.410292059, 0)
+B2.Size = UDim2.new(0, 142, 0, 35)
+B2.Font = Enum.Font.SourceSans
+B2.Text = "FIing v2"
+B2.TextColor3 = Color3.new(0.764706, 0.764706, 0.764706)
+B2.TextScaled = true
+B2.TextSize = 50
+B2.TextWrapped = true
+
+local B2 = Instance.new("UIStroke")
+B2.Name = "B2"
+B2.Parent = B2
+B2.Thickness = 3
+B2.Color = Color3.fromRGB(54, 54, 54)
+B2.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+B3.Name = "B3"
+B3.Parent = KGui
+B3.BackgroundColor3 = Color3.new(0.168627, 0.168627, 0.168627)
+B3.BackgroundTransparency = 0.30000001192092896
+B3.BorderColor3 = Color3.new(0, 0, 0)
+B3.BorderSizePixel = 0
+B3.Position = UDim2.new(0.714436769, 0, 0.410292059, 0)
+B3.Size = UDim2.new(0, 142, 0, 35)
+B3.Font = Enum.Font.SourceSans
+B3.Text = "LoopFIing"
+B3.TextColor3 = Color3.new(0.764706, 0.764706, 0.764706)
+B3.TextScaled = true
+B3.TextSize = 50
+B3.TextWrapped = true
+
+local B3 = Instance.new("UIStroke")
+B3.Name = "B3"
+B3.Parent = B3
+B3.Thickness = 3
+B3.Color = Color3.fromRGB(54, 54, 54)
+B3.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+B4.Name = "B4"
+B4.Parent = KGui
+B4.BackgroundColor3 = Color3.new(0.168627, 0.168627, 0.168627)
+B4.BackgroundTransparency = 0.30000001192092896
+B4.BorderColor3 = Color3.new(0, 0, 0)
+B4.BorderSizePixel = 0
+B4.Position = UDim2.new(0.245049179, 0, 0.492445081, 0)
+B4.Size = UDim2.new(0, 142, 0, 35)
+B4.Font = Enum.Font.SourceSans
+B4.Text = "LoopFIing v2"
+B4.TextColor3 = Color3.new(0.764706, 0.764706, 0.764706)
+B4.TextScaled = true
+B4.TextSize = 50
+B4.TextWrapped = true
+
+local B4 = Instance.new("UIStroke")
+B4.Name = "B4"
+B4.Parent = B4
+B4.Thickness = 3
+B4.Color = Color3.fromRGB(54, 54, 54)
+B4.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+B5.Name = "B5"
+B5.Parent = KGui
+B5.BackgroundColor3 = Color3.new(0.168627, 0.168627, 0.168627)
+B5.BackgroundTransparency = 0.30000001192092896
+B5.BorderColor3 = Color3.new(0, 0, 0)
+B5.BorderSizePixel = 0
+B5.Position = UDim2.new(0.561647534, 0, 0.490706503, 0)
+B5.Size = UDim2.new(0, 142, 0, 35)
+B5.Font = Enum.Font.SourceSans
+B5.Text = "SpinFIing"
+B5.TextColor3 = Color3.new(0.764706, 0.764706, 0.764706)
+B5.TextScaled = true
+B5.TextSize = 50
+B5.TextWrapped = true
+
+local B5 = Instance.new("UIStroke")
+B5.Name = "B6"
+B5.Parent = B5
+B5.Thickness = 3
+B5.Color = Color3.fromRGB(54, 54, 54)
+B5.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+AN10.Name = "AN10"
+AN10.Parent = KGui
+AN10.BackgroundColor3 = Color3.new(0.172549, 0.172549, 0.172549)
+AN10.BackgroundTransparency = 0.10000000149011612
+AN10.BorderColor3 = Color3.new(0, 0, 0)
+AN10.BorderSizePixel = 0
+AN10.Position = UDim2.new(0.715163946, 0, 0.490264207, 0)
+AN10.Size = UDim2.new(0, 142, 0, 35)
+AN10.Font = Enum.Font.SourceSans
+AN10.Text = "AutoPunch"
+AN10.TextColor3 = Color3.new(1, 1, 1)
+AN10.TextScaled = true
+AN10.TextSize = 14
+AN10.TextWrapped = true
+
+SS10.Name = "S10"
+SS10.Parent = AN10
+SS10.Thickness = 3
+SS10.Color = Color3.fromRGB(54, 54, 54)
+SS10.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+CO10.Name = "CO10"
+CO10.Parent = AN10
+CO10.BackgroundColor3 = Color3.new(0.623529, 0, 0)
+CO10.BorderColor3 = Color3.new(0, 0, 0)
+CO10.BorderSizePixel = 0
+CO10.Position = UDim2.new(0, 0, 1.02857149, 0)
+CO10.Size = UDim2.new(0, 142, 0, 1)
+
+B6.Name = "B6"
+B6.Parent = KGui
+B6.BackgroundColor3 = Color3.new(0.168627, 0.168627, 0.168627)
+B6.BackgroundTransparency = 0.30000001192092896
+B6.BorderColor3 = Color3.new(0, 0, 0)
+B6.BorderSizePixel = 0
+B6.Position = UDim2.new(0.562167406, 0, 0.572417259, 0)
+B6.Size = UDim2.new(0, 142, 0, 35)
+B6.Font = Enum.Font.SourceSans
+B6.Text = "LoopPunch"
+B6.TextColor3 = Color3.new(0.764706, 0.764706, 0.764706)
+B6.TextScaled = true
+B6.TextSize = 50
+B6.TextWrapped = true
+
+local B6 = Instance.new("UIStroke")
+B6.Name = "B6"
+B6.Parent = B6
+B6.Thickness = 3
+B6.Color = Color3.fromRGB(54, 54, 54)
+B6.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+
+local function YZHLIJ_fake_script() -- Antifling
+	local script = Instance.new('Script', AN1)
+
+	local t = false
+	AN1.MouseButton1Click:Connect(function()
+		t = not t
+		if t then
+			CO1.BackgroundColor3 = Color3.fromRGB(26, 159, 35)
+		else
+			CO1.BackgroundColor3 = Color3.fromRGB(159, 0, 0)
+		end
+	end)
+end
+coroutine.wrap(YZHLIJ_fake_script)()
+local function GFGYSRZ_fake_script() -- 
+	local script = Instance.new('Script', AN2)
+
+	local t1 = false
+	AN2.MouseButton1Click:Connect(function()
+		t1 = not t1
+		if t1 then
+			CO2.BackgroundColor3 = Color3.fromRGB(26, 159, 35)
+		else
+			CO2.BackgroundColor3 = Color3.fromRGB(159, 0, 0)
+		end
+	end)
+end
+coroutine.wrap(GFGYSRZ_fake_script)()
+local function UGYUGPI_fake_script() -- AN3.SCR3 
+	local script = Instance.new('Script', AN3)
+
+	local t2 = false
+	AN3.MouseButton1Click:Connect(function()
+		t2 = not t2
+		if t2 then
+			CO3.BackgroundColor3 = Color3.fromRGB(26, 159, 35)
+		else
+			CO3.BackgroundColor3 = Color3.fromRGB(159, 0, 0)
+		end
+	end)
+end
+coroutine.wrap(UGYUGPI_fake_script)()
+local function RSRLSE_fake_script() -- AN4.SCR4 
+	local script = Instance.new('Script', AN4)
+
+	local t3 = false
+	AN4.MouseButton1Click:Connect(function()
+		t3 = not t3
+		if t3 then
+			CO4.BackgroundColor3 = Color3.fromRGB(26, 159, 35)
+		else
+			CO4.BackgroundColor3 = Color3.fromRGB(159, 0, 0)
+		end
+	end)
+end
+coroutine.wrap(RSRLSE_fake_script)()
+local function WGWTIFM_fake_script() -- AN5.SCR5 
+	local script = Instance.new('Script', AN5)
+
+	local t4 = false
+	AN5.MouseButton1Click:Connect(function()
+		t4 = not t4
+		if t4 then
+			CO5.BackgroundColor3 = Color3.fromRGB(26, 159, 35)
+		else
+			CO5.BackgroundColor3 = Color3.fromRGB(159, 0, 0)
+		end
+	end)
+end
+coroutine.wrap(WGWTIFM_fake_script)()
+local function ICHHB_fake_script() -- AN6.SCR6 
+	local script = Instance.new('Script', AN6)
+
+	local t5 = false
+	AN6.MouseButton1Click:Connect(function()
+		t5 = not t5
+		if t5 then
+			CO6.BackgroundColor3 = Color3.fromRGB(26, 159, 35)
+		else
+			CO6.BackgroundColor3 = Color3.fromRGB(159, 0, 0)
+		end
+	end)
+end
+coroutine.wrap(ICHHB_fake_script)()
+local function BUVH_fake_script() -- AN7.SCR7 
+	local script = Instance.new('Script', AN7)
+
+	local t6 = false
+	AN7.MouseButton1Click:Connect(function()
+		t6 = not t6
+		if t6 then
+			CO7.BackgroundColor3 = Color3.fromRGB(26, 159, 35)
+		else
+			CO7.BackgroundColor3 = Color3.fromRGB(159, 0, 0)
+		end
+	end)
+end
+coroutine.wrap(BUVH_fake_script)()
+local function PNAW_fake_script() -- AN8.SCR8 
+	local script = Instance.new('Script', AN8)
+
+	local t7 = false
+	AN8.MouseButton1Click:Connect(function()
+		t7 = not t7
+		if t7 then
+			CO8.BackgroundColor3 = Color3.fromRGB(26, 159, 35)
+		else
+			CO8.BackgroundColor3 = Color3.fromRGB(159, 0, 0)
+		end
+	end)
+end
+coroutine.wrap(PNAW_fake_script)()
+local function LBEBYU_fake_script() -- AN9.SCR9 
+	local script = Instance.new('Script', AN9)
+
+	local t8 = false
+	AN9.MouseButton1Click:Connect(function()
+		t8 = not t8
+		if t8 then
+			CO9.BackgroundColor3 = Color3.fromRGB(26, 159, 35)
+		else
+			CO9.BackgroundColor3 = Color3.fromRGB(159, 0, 0)
+		end
+	end)
+end
+coroutine.wrap(LBEBYU_fake_script)()
+local function IOILQF_fake_script() -- AN01.SCR9 
+	local script = Instance.new('Script', AN01)
+
+	-- make here a script that clears loopflings
+end
+coroutine.wrap(IOILQF_fake_script)()
+local function KGAPG_fake_script() -- AN11.SCR11 
+	local script = Instance.new('Script', AN11)
+
+	local t10 = false
+	AN11.MouseButton1Click:Connect(function()
+		t10 = not t10
+		if t10 then
+			CO11.BackgroundColor3 = Color3.fromRGB(26, 159, 35)
+		else
+			CO11.BackgroundColor3 = Color3.fromRGB(159, 0, 0)
+		end
+	end)
+end
+coroutine.wrap(KGAPG_fake_script)()
+local function ENTYM_fake_script() -- AN12.SCR12 
+	local script = Instance.new('Script', AN12)
+
+	local t11 = false
+	AN12.MouseButton1Click:Connect(function()
+		t11 = not t11
+		if t11 then
+			CO12.BackgroundColor3 = Color3.fromRGB(26, 159, 35)
+		else
+			CO12.BackgroundColor3 = Color3.fromRGB(159, 0, 0)
+		end
+	end)
+end
+coroutine.wrap(ENTYM_fake_script)()
+local function MNGV_fake_script() -- AN09.SCR9 
+	local script = Instance.new('Script', AN09)
+
+	-- make here a script that clears loopflings
+end
+coroutine.wrap(MNGV_fake_script)()
+local function EFPXMO_fake_script() -- B1.BS1 
+	local script = Instance.new('Script', B1)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(EFPXMO_fake_script)()
+local function ASBBTWQ_fake_script() -- B2.BS2 
+	local script = Instance.new('Script', B2)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(ASBBTWQ_fake_script)()
+local function LHPOOV_fake_script() -- B3.BS3 
+	local script = Instance.new('Script', B3)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(LHPOOV_fake_script)()
+local function WLIEDU_fake_script() -- B4.BS4 
+	local script = Instance.new('Script', B4)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(WLIEDU_fake_script)()
+local function YIGTWWX_fake_script() -- B5.BS5 
+	local script = Instance.new('Script', B5)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(YIGTWWX_fake_script)()
+local function FOGAJUV_fake_script() -- AN10.SCR10 
+	local script = Instance.new('Script', AN10)
+
+	local t9 = false
+	AN10.MouseButton1Click:Connect(function()
+		t9 = not t9
+		if t9 then
+			CO10.BackgroundColor3 = Color3.fromRGB(26, 159, 35)
+		else
+			CO10.BackgroundColor3 = Color3.fromRGB(159, 0, 0)
+		end
+	end)
+end
+coroutine.wrap(FOGAJUV_fake_script)()
+local function JVCSSZD_fake_script() -- textbox looppunch
+	local script = Instance.new('Script', B6)
+
+	print("Hello world!")
+	
+end
+coroutine.wrap(JVCSSZD_fake_script)()
